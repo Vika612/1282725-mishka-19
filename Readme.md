@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Виктория Домовец](https://up.htmlacademy.ru/adaptive/19/user/1282725).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Гинтер](https://htmlacademy.ru/profile/id781369).
 
 ---
 
