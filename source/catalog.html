@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo" href="index.html">
+        <img class="page-header__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип интернет-магазина 'Мишка'">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle visually-hidden" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a>Каталог товаров</a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">Вязание на заказ</a>
+            </li>
+            <li class="site-list__item">
+              <form class="main-nav__search" action="https://echo.htmlacademy.ru" method="post">
+                <label>Поиск по сайту
+                  <input type="text" name="search">
+                </label>
+                <button type="submit"></button>
+            </form>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Корзина: пока пуста</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <h1 class="page-main__title">Каталог товаров</h1>
+
+      <section class="catalog-inner">
+        <ul class="catalog-inner__list catalog-list">
+          <li class="catalog-list__item">
+            <a class="catalog-list__link" href="#">
+              <img class="catalog-list__image" src="img/foto-1.png" width="260" height="195" alt="игрушка 'Вязаный зайчик'">
+              <h3 class="catalog-list__name">Зайчик-попрыгайчик</h3>
+            </a>
+            <span class="catalog-list__description">Рост 30 см, вес 200 г</span>
+            <p class="catalog-list__price">1 200 руб.</p>
+            <button class="catalog-list__button">Добавить в корзину</button>
+          </li>
+
+          <li class="catalog-list__item">
+            <a class="catalog-list__link" href="#">
+              <img class="catalog-list__image" src="img/foto-2.png" width="260" height="195" alt="вязаная двухцветная корзинка для белья">
+              <h3 class="catalog-list__name">Корзинка для белья</h3>
+            </a>
+            <span class="catalog-list__description">Диаметр 15 см, высота 10 см</span>
+            <p class="catalog-list__price">690 руб.</p>
+            <button class="catalog-list__button">Добавить в корзину</button>
+          </li>
+
+          <li class="catalog-list__item">
+            <a class="catalog-list__link" href="#">
+              <img class="catalog-list__image" src="img/foto-3.png" width="260" height="195" alt="большая вязаная двухцветная корзинка для игрушек">
+              <h3 class="catalog-list__name">Большая корзинка для игрушек</h3>
+            </a>
+            <span class="catalog-list__description">Диаметр 30 см, высота 30см</span>
+            <p class="catalog-list__price">1 500 руб.</p>
+            <button class="catalog-list__button">Добавить в корзину</button>
+          </li>
+        </ul>
+      </section>
+
+      <section class="process">
+        <!--бонусное задание)-->
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--instagram" href="#">Instagram</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#">Facebook</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="#">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <span class="copyright__text">Разработано</span>
+            HTML и CSS, уровень 2
+          </a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
