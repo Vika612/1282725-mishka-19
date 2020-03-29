@@ -6,10 +6,11 @@
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo" href="index.html">
-        <img class="page-header__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип интернет-магазина 'Мишка'">
-      </a>
+
       <nav class="main-nav">
+        <a class="main-nav__logo" href="index.html">
+          <img class="main-nav__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип интернет-магазина 'Мишка'">
+        </a>
         <button class="main-nav__toggle visually-hidden" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
@@ -19,7 +20,7 @@
             <li class="site-list__item">
               <a>Вязание на заказ</a>
             </li>
-            <li class="site-list__item">
+            <li class="site-list__item site-list__item--search">
               <form class="main-nav__search" action="https://echo.htmlacademy.ru" method="post">
                 <label>Поиск по сайту
                   <input type="text" name="search">
@@ -27,7 +28,7 @@
                 <button type="submit"></button>
             </form>
             </li>
-            <li class="site-list__item">
+            <li class="site-list__item site-list__item--cart">
               <a href="#">Корзина: пока пуста</a>
             </li>
           </ul>
