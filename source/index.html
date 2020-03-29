@@ -5,8 +5,175 @@
     <title>HTML Academy: Мишка</title>
   </head>
   <body>
+    <header class="page-header">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+      <nav class="main-nav">
+        <a class="main-nav__logo">
+          <img class="main-nav__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип интернет-магазина 'Мишка'">
+        </a>
+        <button class="main-nav__toggle visually-hidden" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="catalog.html">Каталог товаров</a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">Вязание на заказ</a>
+            </li>
+            <li class="site-list__item site-list__item--search">
+              <form class="main-nav__search" action="https://echo.htmlacademy.ru" method="post">
+                <label>Поиск по сайту
+                  <input type="text" name="search">
+                </label>
+                <button type="submit"></button>
+            </form>
+            </li>
+            <li class="site-list__item site-list__item--cart">
+              <a href="#">Корзина: пока пуста</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <h1 class="page-main__title">Милые штуки ручной работы для дома</h1>
+
+      <section class="catalog">
+        <h2 class="visually-hidden">Каталог товаров</h2>
+        <ul class="catalog-main">
+          <li class="catalog-main__item catalog-main__item--interior">
+            <a class="catalog-main__link" href="#">
+              <h3 class="catalog-main__title">Предметы интерьера</h3>
+            </a>
+          </li>
+          <li class="catalog-main__item catalog-main__item--toys">
+            <a class="catalog-main__link" href="#">
+              <h3 class="catalog-main__title">Детские игрушки</h3>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="promo">
+        <div class="promo__wrapper">
+          <span class="promo__week">Товар недели</span>
+          <h2 class="promo__title ">Вязаные корзинки</h2>
+          <p class="promo__description">
+            Экологически чистая пряжа, ручная работа.
+            Доступны в шести расцветках и трёх размерах.
+          </p>
+          <table class="promo__specif specif-list">
+            <tr class="specif-list__item">
+              <td class="specif-list__item--name">Цвет:</td>
+              <td class="specif-list__item--value">"Тиффани"/серый</td>
+            </tr>
+            <tr class="specif-list__item">
+              <td class="specif-list__item--name">Диаметр:</td>
+              <td class="specif-list__item--value">25 см</td>
+            </tr>
+            <tr class="specif-list__item">
+              <td class="specif-list__item--name">Высота:</td>
+              <td class="specif-list__item--value">15 см</td>
+            </tr>
+          </table>
+          <img class="promo__image" src="img/triple-set.png" width="260" height="315" alt="Набор вязаных корзинок">
+          <span class="promo__price">Цена: 990 руб.</span>
+          <button class="promo__order" type="button">Заказать</button>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <div class="advantages__wrapper">
+          <h2 class="advantages__title">Коротко о нас:</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item advantages__item--ecology">
+              <p>Экологически чистые материалы</p>
+            </li>
+            <li class="advantages__item advantages__item--style">
+              <p>Скандинавский стиль по российской цене</p>
+            </li>
+            <li class="advantages__item advantages__item--like">
+              <p>Увеличивает лайки на фотографиях</p>
+            </li>
+            <li class="advantages__item advantages__item--love">
+              <p>Связано вручную с любовью и умилением</p>
+            </li>
+            <li class="advantages__item advantages__item--support">
+              <p>Поддержка отечественного производителя</p>
+            </li>
+            <li class="advantages__item advantages__item--gift-wrap">
+              <p>Поставляется в подарочной упаковке</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <secton class="reviews">
+        <div class="reviews__wrapper">
+          <h2 class="reviews__title">Отзывы</h2>
+            <div class="reviews__list">
+              <blockquote class="reviews__item">
+                <p class="reviews__description">
+                  Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек.
+                  В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+                </p>
+                <cite class="reviews__author-name">Анастасия Красильникова</cite>
+                <cite class="reviews__author-nickname">@misssssiskras</cite>
+              </blockquote>
+              <button class="reviews__prev" type="button">Предыдущий отзыв</button>
+              <button class="reviews__next" type="button">Следующий отзыв</button>
+            </div>
+          <a class="reviews__write button" href="#">Написать</a>
+        </div>
+      </secton>
+
+      <section class="contacts">
+        <div class="contacts__wrapper">
+          <h2 class="contacts__title">Контакты</h2>
+          <p class="contacts__text">e-mail:
+            <a class="contacts__mail" href="#">info@mimimishkashop.ru</a>
+          </p>
+          <p class="contacts__text">адрес:
+            <p class="contacts__adress">
+              г. Санкт-Петербург,
+              ул. Большая Конюшенная,
+              д. 19/8, офис 101
+            </p>
+          </p>
+          <figure>
+            <figcaption class="contacts__map visually-hidden">Месторасположение нашего офиса на карте</figcaption>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6193253031113!2d30.32110961617598!3d59.938458669075104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fb661d55f%3A0xd0cc7f055debe430!2sBolshaya%20Konyushennaya%20St%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sit!2sit!4v1585331824990!5m2!1sit!2sit"
+            width="322" height="457" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </figure>
+          <a class="contacts__write button" href="#">Напишите нам</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--instagram" href="#">Instagram</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#">Facebook</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="#">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <span class="copyright__text">Разработано</span>
+            HTML и CSS, уровень 2
+          </a>
+        </div>
+      </div>
+    </footer>
 
   </body>
 </html>
