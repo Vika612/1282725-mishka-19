@@ -12,7 +12,7 @@
           <img class="main-nav__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип интернет-магазина 'Мишка'">
         </a>
         <button class="main-nav__toggle visually-hidden" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
+        <div class="wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
               <a href="catalog.html">Каталог товаров</a>
@@ -36,10 +36,77 @@
       </nav>
     </header>
 
-    <!--форма в бонусном задании)-->
+    <main class="page-main">
+      <h1 class="page-main__title">Вязание на заказ</h1>
+
+      <section class="order">
+        <div class="wrapper">
+          <p class="order__description">
+            Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
+          </p>
+
+          <form class="order__form" action="https://echo.htmlacademy.ru" method="post">
+            <fieldset class="order__set">
+              <legend>Тип</legend>
+              <label>
+                <input type="radio" name="radio-input" checked>
+                <span class="radio-box"></span>
+              Аксессуар для интерьера</label>
+              <label>
+                <input type="radio" name="radio-input">
+                <span class="radio-box"></span>
+              Детская игрушка</label>
+            </fieldset>
+
+            <fieldset class="order__set">
+              <legend>Цвет</legend>
+              <label>
+                <input type="checkbox" name="check-input" checked>
+                <span class="check-box"></span>
+              Белый</label>
+              <label>
+                <input type="checkbox" name="check-input" checked>
+                <span class="check-box"></span>
+              Серый</label>
+              <label>
+                <input type="checkbox" name="check-input">
+                <span class="check-box"></span>
+              "Тиффани"</label>
+              <label>
+                <input type="checkbox" name="check-input">
+                <span class="check-box"></span>
+              Чёрный</label>
+              <label>
+                <input type="checkbox" name="check-input">
+                <span class="check-box"></span>
+              Розовый</label>
+              <label>
+                <input type="checkbox" name="check-input">
+                <span class="check-box"></span>
+              Оранжевый</label>
+            </fieldset>
+
+            <fieldset class="order__set">
+              <legend>ФИО</legend>
+            </fieldset>
+            <fieldset class="">
+              <legend>Тел</legend>
+            </fieldset>
+            <fieldset class="">
+              <legend>E-mail</legend>
+            </fieldset>
+            <fieldset class="">
+              <legend>Доп</legend>
+            </fieldset>
+            <span class="">*Поля обязательны для заполнения</span>
+            <button class="" type="submit">Отправить заказ</button>
+          </form>
+        </div>
+      </section>
+    </main>
 
     <footer class="page-footer">
-      <div class="page-footer__wrapper">
+      <div class="wrapper">
         <div class="page-footer__social social">
           <ul class="social__list">
             <li class="social__item">
