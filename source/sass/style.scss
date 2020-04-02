@@ -1,2 +1,14 @@
 @import "fonts.scss";
 @import "global.scss";
+@import "variables";
+
+body {
+  max-width: 320px;
+  margin: 0 auto;
+
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.6;
+  color: $greyish;
+}
