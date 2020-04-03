@@ -6,13 +6,11 @@ body {
   font-size: 15px;
   font-weight: normal;
   line-height: 1.6;
-  color: $greyish;
+  color: #444444;
 }
 
 @import "source/sass/fonts.scss";
 @import "source/sass/global.scss";
 @import "source/sass/variables.scss";
-@import "source/sass/blocks/main-nav.scss";
-
-
-
+@import "source/sass/blocks/site-list.scss";
+@import "source/sass/blocks/user-list.scss";

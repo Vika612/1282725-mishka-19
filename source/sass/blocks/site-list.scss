@@ -1,0 +1,17 @@
+.site-list__link {
+  font-family: $opensans;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: $black;
+}
+
+.site-list__link:hover,
+.site-list__link:focus {
+  opacity: 0.6;
+}
+
+.site-list__link:active {
+  opacity: 0.3;
+}
+

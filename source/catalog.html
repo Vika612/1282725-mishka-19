@@ -14,21 +14,21 @@
         <button class="main-nav__toggle visually-hidden" type="button">Открыть меню</button>
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
-            <a>Каталог товаров</a>
+            <a class="site-list__link" href="catalog.html">Каталог товаров</a>
           </li>
           <li class="site-list__item">
-            <a href="form.html">Вязание на заказ</a>
+            <a class="site-list__link" href="form.html">Вязание на заказ</a>
           </li>
           <li class="site-list__item site-list__item--search">
-            <form class="main-nav__search" action="https://echo.htmlacademy.ru" method="post">
-              <label>Поиск по сайту
+            <form class="site-list__item" action="https://echo.htmlacademy.ru" method="post">
+              <label class="site-list__link">Поиск по сайту
                 <input type="text" name="search">
               </label>
               <button type="submit"></button>
-          </form>
+            </form>
           </li>
-          <li class="site-list__item site-list__item--cart">
-            <a href="#">Корзина: пока пуста</a>
+          <li class="user-list__item user-list__item--cart">
+            <a class="user-list__link" href="#">Корзина: пока пуста</a>
           </li>
         </ul>
       </nav>
@@ -47,7 +47,7 @@
               </a>
               <span class="catalog-list__description">Рост 30 см, вес 200 г</span>
               <div class="wrap">
-                <p class="catalog-list__price">1 200 руб.</p>
+                <span class="catalog-list__price">1 200 руб.</span>
                 <button class="catalog-list__button">Добавить в корзину</button>
               </div>
             </li>
@@ -59,7 +59,7 @@
               </a>
               <span class="catalog-list__description">Диаметр 15 см, высота 10 см</span>
               <div class="wrap">
-                <p class="catalog-list__price">690 руб.</p>
+                <span class="catalog-list__price">690 руб.</span>
                 <button class="catalog-list__button">Добавить в корзину</button>
               </div>
             </li>
@@ -71,7 +71,7 @@
               </a>
               <span class="catalog-list__description">Диаметр 30 см, высота 30см</span>
               <div class="wrap">
-                <p class="catalog-list__price">1 500 руб.</p>
+                <span class="catalog-list__price">1 500 руб.</span>
                 <button class="catalog-list__button">Добавить в корзину</button>
               </div>
             </li>
