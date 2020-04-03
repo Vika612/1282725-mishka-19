@@ -1,7 +1,3 @@
-@import "fonts.scss";
-@import "global.scss";
-@import "variables";
-
 body {
   max-width: 320px;
   margin: 0 auto;
@@ -12,3 +8,11 @@ body {
   line-height: 1.6;
   color: $greyish;
 }
+
+@import "source/sass/fonts.scss";
+@import "source/sass/global.scss";
+@import "source/sass/variables.scss";
+@import "source/sass/blocks/main-nav.scss";
+
+
+
