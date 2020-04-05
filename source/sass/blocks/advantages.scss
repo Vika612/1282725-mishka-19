@@ -1,0 +1,32 @@
+.advantages__wrapper {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.advantages__list {
+  padding-left: 0;
+}
+
+.advantages__item {
+  padding: 30px 0;
+  font-family: $opensans;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: $black;
+}
+
+.advantages__item--ecology,
+.advantages__item--like,
+.advantages__item--gift {
+  padding-right: 70px;
+}
+
+.advantages__item--style,
+.advantages__item--love {
+  padding-right: 45px;
+}
+
+.advantages__item--gift {
+  padding-right: 25px;
+}

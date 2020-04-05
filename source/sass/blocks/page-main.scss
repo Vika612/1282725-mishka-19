@@ -1,0 +1,41 @@
+.page-main__title {
+  margin: 0;
+
+  font-family: $opensans;
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #010000;
+
+  text-align: center;
+}
+
+.page-main__title--index {
+  padding: 93px 35px 193px;
+
+  background-image: url("../img/hero-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-main__title--inner {
+  padding: 75px 20px;
+
+  background-color: #f1f1f1;
+}
+
+.button {
+  width: 260px;
+  padding: 20px 85px;
+
+  font-family: $opensans;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.2;
+
+  text-transform: uppercase;
+  border: 2px solid $greyish;
+  cursor: pointer;
+
+  color: $greyish;
+}

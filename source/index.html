@@ -11,7 +11,7 @@
         <a class="main-nav__logo">
           <img class="main-nav__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип интернет-магазина 'Мишка'">
         </a>
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <button class="main-nav__toggle" type="button">меню</button>
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
             <a class="site-list__link" href="catalog.html">Каталог товаров</a>
@@ -20,25 +20,20 @@
             <a class="site-list__link" href="form.html">Вязание на заказ</a>
           </li>
           <li class="site-list__item site-list__item--search">
-            <form class="site-list__item" action="https://echo.htmlacademy.ru" method="post">
-              <label class="site-list__link">Поиск по сайту
-                <input type="text" name="search">
-              </label>
-              <button type="submit"></button>
-            </form>
+            <a class="site-list__link" href="#">Поиск по сайту</a>
           </li>
-          <li class="user-list__item user-list__item--cart">
-            <a class="user-list__link" href="#">Корзина: пока пуста</a>
+          <li class="site-list__item site-list__item--cart">
+            <a class="site-list__link" href="#">Корзина: пока пуста</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main class="page-main feedback">
-      <h1 class="page-main__title">Милые штуки ручной работы для дома</h1>
+        <h1 class="page-main__title page-main__title--index">Милые штуки ручной<br> работы для дома</h1>
 
       <section class="catalog">
-        <div class="wrapper">
+        <div class="catalog__wrapper">
           <h2 class="visually-hidden">Каталог товаров</h2>
           <ul class="catalog-main">
             <li class="catalog-main__item catalog-main__item--interior">
@@ -56,11 +51,11 @@
       </section>
 
       <section class="promo">
-        <div class="wrapper">
-          <span class="promo__week">Товар недели</span>
+        <div class="promo__wrapper">
           <h2 class="title-main title-main--promo">Вязаные корзинки</h2>
+          <span class="promo__week">Товар недели</span>
           <p class="promo__description">
-            Экологически чистая пряжа, ручная работа.
+            Экологически чистая пряжа,<br> ручная работа.
             Доступны в шести расцветках и трёх размерах.
           </p>
           <table class="promo__specif specif-list">
@@ -78,13 +73,13 @@
             </tr>
           </table>
           <img class="promo__image" src="img/triple-set-mobile@1x.jpg" width="260" height="315" alt="Набор вязаных корзинок">
-          <span class="promo__price">Цена: 990 руб.</span>
-          <button class="promo__order" type="button">Заказать</button>
+          <p class="promo__price">Цена: 990 руб.</p>
+          <button class="button promo__order" type="button">Заказать</button>
         </div>
       </section>
 
       <section class="advantages">
-        <div class="wrapper">
+        <div class="advantages__wrapper">
           <h2 class="title-main title-main--advantages">Коротко о нас:</h2>
           <ul class="advantages__list">
             <li class="advantages__item advantages__item--ecology">
@@ -102,7 +97,7 @@
             <li class="advantages__item advantages__item--support">
               <p>Поддержка отечественного производителя</p>
             </li>
-            <li class="advantages__item advantages__item--gift-wrap">
+            <li class="advantages__item advantages__item--gift">
               <p>Поставляется в подарочной упаковке</p>
             </li>
           </ul>
@@ -110,48 +105,50 @@
       </section>
 
       <secton class="reviews">
-        <div class="wrapper">
+        <div class="reviews__wrapper">
           <h2 class="title-main title-main--reviews">Отзывы</h2>
-            <div class="reviews__list">
-              <blockquote class="reviews__item">
-                <p class="reviews__description">
-                  Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек.
-                  В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
-                </p>
-                <cite class="reviews__author-name">Анастасия Красильникова</cite>
-                <cite class="reviews__author-nickname">@misssssiskras</cite>
-              </blockquote>
-              <button class="reviews__prev" type="button">Предыдущий отзыв</button>
-              <button class="reviews__next" type="button">Следующий отзыв</button>
+            <blockquote class="reviews__block">
+              <p class="reviews__description">
+                Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек.
+                В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+              </p>
+              <cite>
+                <span class="reviews__author-name">Анастасия Красильникова</span>
+                <span class="reviews__author-nickname">@misssssiskras</span>
+              </cite>
+            </blockquote>
+            <div class="reviews__nav">
+              <button class="reviews__btn--prev" type="button">Предыдущий</button>
+              <button class="reviews__btn--next" type="button">Следующий</button>
             </div>
-          <a class="reviews__write button" href="#">Написать</a>
+          <a class="button reviews__write" href="#">Написать</a>
         </div>
       </secton>
 
       <section class="contacts">
-        <div class="wrapper">
+        <div class="contacts__wrapper">
           <h2 class="contacts__title">Контакты</h2>
-          <p class="contacts__info">
-            <span>e-mail:</span>
-            <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
-          </p>
-          <adress class="contacts__info">
-            <span>адрес:</span>
-            <span>г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</span>
-          </adress>
+          <div class="contacts__mail">
+            <span class="contacts_mail--label">e-mail:</span>
+            <a class="contacts__mail--link" href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+          </div>
+          <div class="contacts__address--wrap">
+            <span class="contacts__address--label">адрес:</span>
+            <span class="contacts__address">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</span>
+          </div>
 
-          <figure>
+          <figure class="contacts__map">
             <figcaption class="contacts__map visually-hidden">Месторасположение нашего офиса на карте</figcaption>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6193253031113!2d30.32110961617598!3d59.938458669075104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fb661d55f%3A0xd0cc7f055debe430!2sBolshaya%20Konyushennaya%20St%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sit!2sit!4v1585331824990!5m2!1sit!2sit"
-            width="322" height="457" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            width="320" height="457" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </figure>
-          <a class="contacts__write button" href="#">Напишите нам</a>
+          <a class="button contacts__write" href="#">Напишите нам</a>
         </div>
       </section>
     </main>
 
     <footer class="page-footer feedback">
-      <div class="wrapper">
+      <div class="page-footer__wrapper">
         <div class="page-footer__social social">
           <ul class="social__list">
             <li class="social__item">
@@ -168,7 +165,7 @@
         <div class="page-footer__copyright copyright">
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <span class="copyright__text">Разработано</span>
-            HTML и CSS, уровень 2
+            <img src="img/htmlacademy.svg" width="27" height="34" alt="HTML и CSS, уровень 2">
           </a>
         </div>
       </div>

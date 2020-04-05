@@ -1,0 +1,15 @@
+.copyright {
+  padding: 15px 70px 20px;
+}
+
+.copyright__text {
+  font-family: $opensans;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1;
+  color: $black;
+}
+
+.copyright__link:active {
+  opacity: 0.3;
+}

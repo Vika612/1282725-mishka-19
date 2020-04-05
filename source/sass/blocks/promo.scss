@@ -1,0 +1,53 @@
+.promo__wrapper {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.title-main {
+  margin-bottom: 5px;
+
+  font-family: $opensans;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: $black;
+}
+
+.promo__week {
+  font-family: $opensans;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #63d1bb;
+}
+
+.promo__description {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.promo__image {
+  margin-top: 30px;
+}
+
+.promo__price {
+  padding-top: 5px;
+  padding-bottom: 25px;
+  font-family: $opensans;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+  color: $greyish;
+}
+
+.promo__order:hover,
+.promo__order:focus {
+  color: #ffffff;
+  background-color: $greyish;
+}
+
+.promo__order:active {
+  color: rgba(255, 255, 255, 0.3);
+}

@@ -1,3 +1,8 @@
+@import "global/normalize.scss";
+@import "global/fonts.scss";
+@import "global/global.scss";
+@import "global/variables.scss";
+
 body {
   max-width: 320px;
   margin: 0 auto;
@@ -7,10 +12,17 @@ body {
   font-weight: normal;
   line-height: 1.6;
   color: #444444;
+  outline: 1px solid #cccccc;
 }
 
-@import "source/sass/fonts.scss";
-@import "source/sass/global.scss";
-@import "source/sass/variables.scss";
-@import "source/sass/blocks/site-list.scss";
-@import "source/sass/blocks/user-list.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/page-main.scss";
+@import "blocks/site-list.scss";
+@import "blocks/catalog.scss";
+@import "blocks/promo.scss";
+@import "blocks/advantages.scss";
+@import "blocks/reviews.scss";
+@import "blocks/contacts.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/social.scss";
+@import "blocks/copyright.scss";
