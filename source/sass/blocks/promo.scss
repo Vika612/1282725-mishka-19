@@ -9,7 +9,9 @@
   font-family: $opensans;
   font-size: 25px;
   font-weight: bold;
+
   line-height: 1.2;
+
   color: $black;
 }
 
@@ -17,8 +19,10 @@
   font-family: $opensans;
   font-size: 17px;
   font-weight: bold;
+
   line-height: 1.2;
   text-transform: uppercase;
+
   color: #63d1bb;
 }
 
@@ -34,11 +38,14 @@
 .promo__price {
   padding-top: 5px;
   padding-bottom: 25px;
+
   font-family: $opensans;
   font-size: 17px;
   font-weight: bold;
+
   line-height: 1.4;
   text-align: center;
+
   color: $greyish;
 }
 

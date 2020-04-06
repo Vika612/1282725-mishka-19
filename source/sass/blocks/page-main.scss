@@ -1,13 +1,19 @@
+.page-main {
+  width: 320px;
+  margin: 0 auto;
+}
+
 .page-main__title {
   margin: 0;
 
   font-family: $opensans;
   font-size: 27px;
   font-weight: bold;
-  line-height: 1.1;
-  color: #010000;
 
+  line-height: 1.1;
   text-align: center;
+
+  color: #010000;
 }
 
 .page-main__title--index {

@@ -2,19 +2,7 @@
 @import "global/fonts.scss";
 @import "global/global.scss";
 @import "global/variables.scss";
-
-body {
-  max-width: 320px;
-  margin: 0 auto;
-
-  font-family: "Open Sans", "Tahoma", sans-serif;
-  font-size: 15px;
-  font-weight: normal;
-  line-height: 1.6;
-  color: #444444;
-  outline: 1px solid #cccccc;
-}
-
+@import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/page-main.scss";
 @import "blocks/site-list.scss";
