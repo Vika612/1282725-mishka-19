@@ -1,8 +1,14 @@
 .copyright {
-  padding: 15px 70px 20px;
+  padding: 15px 70px 25px;
 }
 
-.copyright__text {
+.copyright__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright__link--text {
   font-family: $opensans;
   font-size: 19px;
   font-weight: bold;
@@ -10,6 +16,15 @@
   line-height: 1;
 
   color: $black;
+}
+
+.copyright__link--img {
+  fill: #63d1bb;
+}
+
+.copyright__link--img:hover,
+.copyright__link--img:focus {
+  fill: #46c1ae;
 }
 
 .copyright__link:active {

@@ -1,4 +1,6 @@
 .catalog-main__title {
+  margin: 0;
+
   font-family: $opensans;
   font-size: 19px;
   font-weight: bold;
@@ -13,6 +15,7 @@
 }
 
 .catalog-main {
+  margin: 0;
   padding-left: 0;
 }
 

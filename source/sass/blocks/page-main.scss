@@ -45,3 +45,13 @@
 
   color: $greyish;
 }
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: $greyish;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+}

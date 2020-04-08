@@ -1,9 +1,5 @@
-.contacts__wrapper {
-  width: 260px;
-  margin: 0 auto;
-}
-
 .contacts__title {
+  margin: 0;
   padding-top: 45px;
   padding-bottom: 15px;
 
@@ -17,6 +13,7 @@
 }
 
 .contacts__mail {
+  display: flex;
   margin-bottom: 35px;
 }
 
@@ -36,6 +33,7 @@
 }
 
 .contacts__address--wrap {
+  display: flex;
   margin-bottom: 40px;
 }
 
@@ -48,4 +46,13 @@
   display: block;
   margin-bottom: 40px;
   padding: 20px 53px;
+}
+
+.contacts__label {
+  padding-right: 30px;
+}
+
+.contacts__address {
+  width: 140px;
+  margin-top: 0;
 }

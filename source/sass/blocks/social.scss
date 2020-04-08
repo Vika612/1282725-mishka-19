@@ -1,5 +1,20 @@
 .social__list {
   display: flex;
-  margin-bottom: 0;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 0;
   padding: 30px 50px;
+}
+
+.social__link {
+  fill: #231f20;
+}
+
+.social__link:hover,
+.social__link:focus {
+  fill: #46c1ae;
+}
+
+.social__link:active {
+  opacity: 0.3;
 }

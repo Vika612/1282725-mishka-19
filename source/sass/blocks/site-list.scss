@@ -15,7 +15,25 @@
   opacity: 0.3;
 }
 
+.site-list__link--icon {
+  margin-right: 20px;
+  fill: #231f20;
+  opacity: 0.2;
+}
+
+.site-list__link--icon:hover,
+.site-list__link--icon:focus {
+  fill: #63d1bb;
+  opacity: 1;
+}
+
+.site-list__link--icon:active {
+  fill: #63d1bb;
+  opacity: 0.3;
+}
+
 .site-list {
+  margin: 0;
   padding-left: 0;
   /*display: none;*/
 }
@@ -23,4 +41,9 @@
 .site-list__item {
   padding: 30px 9px 30px 70px;
   box-shadow: 0 1px 0 0 #ececec;
+}
+
+.site-list__item--search,
+.site-list__item--cart {
+  padding-left: 25px;
 }
