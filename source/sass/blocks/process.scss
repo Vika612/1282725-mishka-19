@@ -1,0 +1,44 @@
+.process__wrapper {
+  width: 260px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  border: 1px solid #ececec;
+}
+
+.process__title {
+  margin: 0;
+  padding: 30px 43px 25px 90px;
+
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+
+  line-height: 1.4;
+  color: #000000;
+}
+
+.process__description {
+  margin: 0;
+  padding: 35px 48px 20px 35px;
+
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+
+  line-height: 1.8;
+
+  color: #444444;
+}
+
+.process__link {
+  display: block;
+
+  width: 190px;
+  margin-left: 35px;
+  margin-bottom: 35px;
+  padding: 20px 0;
+
+  text-align: center;
+}

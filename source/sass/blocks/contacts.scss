@@ -3,13 +3,13 @@
   padding-top: 45px;
   padding-bottom: 15px;
 
-  font-family: $opensans;
+  font-family: "Open Sans", "Tahoma", sans-serif;
   font-size: 18px;
   font-weight: bold;
 
   line-height: 1.7;
 
-  color: $black;
+  color: #000000;
 }
 
 .contacts__mail {
@@ -20,7 +20,7 @@
 .contacts__mail--link {
   border-bottom: 1px solid #46c1ae;
 
-  color: $greyish;
+  color: #444444;
 }
 
 .contacts__mail--link:hover,

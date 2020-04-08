@@ -6,7 +6,7 @@
 .page-main__title {
   margin: 0;
 
-  font-family: $opensans;
+  font-family: "Open Sans", "Tahoma", sans-serif;
   font-size: 27px;
   font-weight: bold;
 
@@ -34,22 +34,22 @@
   width: 260px;
   padding: 20px 85px;
 
-  font-family: $opensans;
+  font-family: "Open Sans", "Tahoma", sans-serif;
   font-size: 17px;
   font-weight: bold;
   line-height: 1.2;
 
   text-transform: uppercase;
-  border: 2px solid $greyish;
+  border: 2px solid #444444;
   cursor: pointer;
 
-  color: $greyish;
+  color: #444444;
 }
 
 .button:hover,
 .button:focus {
   color: #ffffff;
-  background-color: $greyish;
+  background-color: #444444;
 }
 
 .button:active {
