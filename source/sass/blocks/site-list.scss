@@ -6,12 +6,12 @@
   color: #000000;
 }
 
-.site-list__link:hover,
-.site-list__link:focus {
+.site-list__item:hover .site-list__link,
+.site-list__item:focus .site-list__link {
   opacity: 0.6;
 }
 
-.site-list__link:active {
+.site-list__item:active .site-list__link {
   opacity: 0.3;
 }
 
@@ -21,13 +21,13 @@
   opacity: 0.2;
 }
 
-.site-list__link--icon:hover,
-.site-list__link--icon:focus {
+.site-list__item:hover .site-list__link--icon,
+.site-list__item:focus .site-list__link--icon {
   fill: #63d1bb;
   opacity: 1;
 }
 
-.site-list__link--icon:active {
+.site-list__item:active .site-list__link--icon {
   fill: #63d1bb;
   opacity: 0.3;
 }
