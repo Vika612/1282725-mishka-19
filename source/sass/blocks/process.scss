@@ -1,10 +1,17 @@
-.process__wrapper {
+.process {
   width: 260px;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 60px;
+}
 
-  border: 1px solid #ececec;
+.process:hover .process__wrap,
+.process:focus .process__wrap {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.process:active .process__wrap {
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .process__title {
@@ -16,7 +23,14 @@
   font-weight: bold;
 
   line-height: 1.4;
+  border: 1px solid #ececec;
+
   color: #000000;
+}
+
+.process__wrap {
+  margin-top: -7px;
+  border: 1px solid #ececec;
 }
 
 .process__description {
