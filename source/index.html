@@ -38,7 +38,9 @@
     </header>
 
     <main class="page-main feedback">
-        <h1 class="page-main__title page-main__title--index">Милые штуки ручной<br> работы для дома</h1>
+      <div class="page-main__title-wrap">
+        <h1 class="page-main__title">Милые штуки ручной<br> работы для дома</h1>
+      </div>
 
       <section class="catalog">
         <div class="catalog__wrapper">
@@ -66,7 +68,7 @@
             Экологически чистая пряжа,<br> ручная работа.
             Доступны в шести расцветках и трёх размерах.
           </p>
-          <table class="promo__specif specif-list">
+          <table class="promo__specif specif-list" cellspacing="0" cellpadding="0">
             <tr class="specif-list__item">
               <td class="specif-list__item--name">Цвет:</td>
               <td class="specif-list__item--value">"Тиффани"/серый</td>
@@ -134,19 +136,21 @@
       </secton>
 
       <section class="contacts">
-        <div class="wrapper">
-          <h2 class="contacts__title">Контакты</h2>
-          <div class="contacts__mail">
-            <span class="contacts__label">e-mail:</span>
-            <a class="contacts__mail--link" href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
-          </div>
-          <div class="contacts__address--wrap">
-            <span class="contacts__label">адрес:</span>
-            <p class="contacts__address">г. Санкт-Петербург, ул. Большая Конюшенная,<br> д. 19/8, офис 101</p>
+        <div class="contacts__wrapper">
+          <div class="wrapper">
+            <h2 class="contacts__title">Контакты</h2>
+            <div class="contacts__mail">
+              <span class="contacts__label">e-mail:</span>
+              <a class="contacts__mail--link" href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+            </div>
+            <div class="contacts__address--wrap">
+              <span class="contacts__label">адрес:</span>
+              <p class="contacts__address">г. Санкт-Петербург, ул. Большая Конюшенная,<br> д. 19/8, офис 101</p>
+            </div>
           </div>
 
           <figure class="contacts__map">
-            <figcaption class="contacts__map visually-hidden">Месторасположение нашего офиса на карте</figcaption>
+            <figcaption class="visually-hidden">Месторасположение нашего офиса на карте</figcaption>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6193253031113!2d30.32110961617598!3d59.938458669075104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fb661d55f%3A0xd0cc7f055debe430!2sBolshaya%20Konyushennaya%20St%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sit!2sit!4v1585331824990!5m2!1sit!2sit"
             width="320" height="457" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </figure>
@@ -156,7 +160,7 @@
     </main>
 
     <footer class="page-footer feedback">
-      <div class="page-footer__wrapper">
+      <div class="wrapper">
         <div class="page-footer__social social">
           <ul class="social__list">
             <li class="social__item">

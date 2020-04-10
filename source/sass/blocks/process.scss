@@ -14,43 +14,37 @@
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-.process__title {
-  margin: 0;
+.process__wrap-title {
   padding: 30px 43px 25px 90px;
 
-  font-family: "Open Sans", "Tahoma", sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-
-  line-height: 1.4;
   border: 1px solid #ececec;
+}
 
-  color: #000000;
+.process__title {
+  margin: 0;
+}
+
+.process__video {
+  font-size: 0;
 }
 
 .process__wrap {
-  margin-top: -7px;
+  padding: 35px 48px 20px 35px;
+
   border: 1px solid #ececec;
 }
 
 .process__description {
   margin: 0;
-  padding: 35px 48px 20px 35px;
-
-  font-family: "Open Sans", "Tahoma", sans-serif;
-  font-size: 13px;
-  font-weight: normal;
+  padding-bottom: 30px;
 
   line-height: 1.8;
-
-  color: #444444;
 }
 
 .process__link {
   display: block;
 
   width: 190px;
-  margin-left: 35px;
   margin-bottom: 35px;
   padding: 20px 0;
 
