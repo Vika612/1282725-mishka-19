@@ -1,3 +1,10 @@
+.order__set {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-top: 1px solid #63d1bb;
+}
+
 .order__description {
   line-height: 1.8;
 }
@@ -7,4 +14,20 @@
   text-transform: uppercase;
 
   color: #63d1bb;
+}
+
+.order__list {
+  margin: 0;
+  padding: 0;
+}
+
+.order__sign {
+  line-height: 1;
+
+  color: #000000;
+}
+
+.order__type-item,
+.order__color-item {
+  padding: 20px 0;
 }
