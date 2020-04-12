@@ -1,5 +1,6 @@
 .contacts {
   width: 100%;
+  margin-top: 40px;
 }
 
 .contacts__title {
@@ -18,6 +19,7 @@
 
 .contacts__mail {
   display: flex;
+  margin-top: 15px;
   margin-bottom: 35px;
 }
 
@@ -43,14 +45,14 @@
 
 .contacts__map {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .contacts__link {
   display: block;
   margin-left: 30px;
   margin-bottom: 40px;
-  padding: 20px 53px;
+  padding: 15px 53px;
 }
 
 .contacts__label {
@@ -58,6 +60,8 @@
 }
 
 .contacts__address {
-  width: 140px;
+  width: 145px;
   margin-top: 0;
+
+  line-height: 2;
 }

@@ -2,7 +2,7 @@
   width: 260px;
   margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 65px;
 }
 
 .process:hover .process__wrap,
@@ -15,7 +15,11 @@
 }
 
 .process__wrap-title {
-  padding: 30px 43px 25px 90px;
+  padding: 20px 43px 25px 90px;
+
+  background-image: url("../img/icon-video.svg");
+  background-repeat: no-repeat;
+  background-position: 15%;
 
   border: 1px solid #ececec;
 }
@@ -29,14 +33,14 @@
 }
 
 .process__wrap {
-  padding: 35px 48px 20px 35px;
+  padding: 25px 48px 30px 35px;
 
   border: 1px solid #ececec;
 }
 
 .process__description {
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 
   line-height: 1.8;
 }
@@ -45,8 +49,7 @@
   display: block;
 
   width: 190px;
-  margin-bottom: 35px;
-  padding: 20px 0;
+  padding: 15px 0;
 
   text-align: center;
 }
