@@ -1,0 +1,36 @@
+.promo__week {
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  color: #63d1bb;
+}
+
+.promo__description {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.promo__image {
+  margin-top: 30px;
+}
+
+.promo__price {
+  padding-bottom: 25px;
+
+  text-align: center;
+
+  color: #444444;
+}
+
+.promo__button {
+  margin-bottom: 40px;
+}
+
+.specif-list {
+  border-spacing: 0;
+}
+
+.specif-list__item td {
+  padding: 7px 30px 7px 0;
+  border-bottom: 1px solid #ececec;
+}

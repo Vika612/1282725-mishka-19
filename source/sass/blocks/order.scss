@@ -1,0 +1,32 @@
+.order__description {
+  line-height: 1.8;
+}
+
+.order__field {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-top: 1px solid #63d1bb;
+}
+
+.order__name {
+  line-height: 1;
+  text-transform: uppercase;
+
+  color: #63d1bb;
+}
+
+.order__set {
+  margin: 0;
+  padding: 0;
+}
+
+.order__sign {
+  line-height: 1;
+
+  color: #000000;
+}
+
+.order-list__item {
+  padding: 25px 80px 25px 0;
+}

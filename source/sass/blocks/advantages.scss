@@ -1,0 +1,32 @@
+.advantages__list {
+  margin: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+}
+
+.advantages__item {
+  padding: 65px 0 0;
+
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+
+  line-height: 1.2;
+
+  color: #000000;
+}
+
+.advantages__item--ecology,
+.advantages__item--like,
+.advantages__item--gift {
+  padding-right: 70px;
+}
+
+.advantages__item--style,
+.advantages__item--love {
+  padding-right: 45px;
+}
+
+.advantages__item--gift {
+  padding-right: 25px;
+}
