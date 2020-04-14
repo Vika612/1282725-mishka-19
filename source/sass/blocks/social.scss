@@ -1,0 +1,25 @@
+.social {
+  margin: 0;
+  padding: 0;
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+
+  padding: 25px 40px 0;
+}
+
+.social__link {
+  fill: #231f20;
+}
+
+.social__link:hover,
+.social__link:focus {
+  fill: #46c1ae;
+}
+
+.social__link:active {
+  opacity: 0.3;
+}

@@ -1,0 +1,16 @@
+.main-nav {
+  position: relative;
+}
+
+.main-nav__logo {
+  display: block;
+  padding: 20px 115px;
+
+  box-shadow: 0 1px 0 0 #ececec;
+}
+
+.main-nav__toggle {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
