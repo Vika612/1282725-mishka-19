@@ -15,7 +15,7 @@
 
   line-height: 1.7;
 
-  color: #000000;
+  color: $black;
 }
 
 .contacts__mail {
@@ -25,14 +25,14 @@
 }
 
 .contacts__mail--link {
-  border-bottom: 1px solid #46c1ae;
+  border-bottom: 1px solid $greeny-blue-1;
 
-  color: #444444;
+  color: $greyish-brown;
 }
 
 .contacts__mail--link:hover,
 .contacts__mail--link:focus {
-  color: #46c1ae;
+  color: $greeny-blue-1;
 }
 
 .contacts__mail--link:active {

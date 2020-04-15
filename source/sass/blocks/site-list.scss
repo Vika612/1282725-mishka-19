@@ -9,18 +9,18 @@
 
 .site-list__link--icon {
   margin-right: 20px;
-  fill: #231f20;
+  fill: $black-2;
   opacity: 0.2;
 }
 
 .site-list__item:hover .site-list__link--icon,
 .site-list__item:focus .site-list__link--icon {
-  fill: #63d1bb;
+  fill: $seafoam-blue;
   opacity: 1;
 }
 
 .site-list__item:active .site-list__link--icon {
-  fill: #63d1bb;
+  fill: $seafoam-blue;
   opacity: 0.3;
 }
 
@@ -32,7 +32,7 @@
 
 .site-list__item {
   padding: 30px 9px 30px 70px;
-  box-shadow: 0 1px 0 0 #ececec;
+  box-shadow: 0 1px 0 0 $white-2;
 }
 
 .site-list__item--search,

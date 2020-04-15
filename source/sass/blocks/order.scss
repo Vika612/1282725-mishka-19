@@ -6,14 +6,14 @@
   margin: 0;
   padding: 0;
   border: none;
-  border-top: 1px solid #63d1bb;
+  border-top: 1px solid $seafoam-blue;
 }
 
 .order__name {
   line-height: 1;
   text-transform: uppercase;
 
-  color: #63d1bb;
+  color: $seafoam-blue;
 }
 
 .order__set {
@@ -24,7 +24,7 @@
 .order__sign {
   line-height: 1;
 
-  color: #000000;
+  color: $black;
 }
 
 .order-list__item {

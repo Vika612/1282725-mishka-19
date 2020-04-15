@@ -6,7 +6,7 @@
   line-height: 1.2;
   text-transform: uppercase;
 
-  color: #63d1bb;
+  color: $seafoam-blue;
 }
 
 .promo__description {
@@ -23,7 +23,7 @@
 
   text-align: center;
 
-  color: #444444;
+  color: $greyish-brown;
 }
 
 .specif-list {
@@ -32,5 +32,5 @@
 
 .specif-list__item td {
   padding: 7px 30px 7px 0;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid $white-2;
 }
