@@ -1,12 +1,23 @@
+.order {
+  padding-top: 10px;
+  padding-bottom: 55px;
+}
+
 .order__description {
+  padding-bottom: 30px;
   line-height: 1.8;
 }
 
 .order__field {
   margin: 0;
   padding: 0;
+
   border: none;
   border-top: 1px solid $seafoam-blue;
+}
+
+.order__field-user {
+  margin-bottom: 22px;
 }
 
 .order__name {
@@ -17,16 +28,127 @@
 }
 
 .order__set {
+  position: relative;
+
+  width: 260px;
   margin: 0;
   padding: 0;
 }
 
+.order-list__item {
+  margin: 0;
+  margin-bottom: 22px;
+  padding: 10px 80px 12px 0;
+}
+
+.order-list__item:first-child {
+  margin-top: 25px;
+}
+
+.order-list__item--interior {
+  margin-bottom: 0;
+}
+
+.order-list__item-user {
+  padding: 0;
+}
+
 .order__sign {
+  display: block;
+
+  width: 260px;
+  padding-left: 65px;
+
   line-height: 1;
+  cursor: pointer;
 
   color: $black;
 }
 
-.order-list__item {
-  padding: 25px 80px 25px 0;
+.order__sign-user {
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+}
+
+.order__input-user {
+  width: 260px;
+  padding: 15px 0;
+  border: none;
+  border-bottom: 2px solid $black;
+}
+
+.order__input-user::placeholder {
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+
+  line-height: 1;
+
+  color: $greyish-brown;
+  opacity: 0.3;
+}
+
+.order__input {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.order__box {
+  position: absolute;
+
+  width: 40px;
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -65px;
+
+  border: 2px solid $greyish-brown;
+  background-color: $white;
+}
+
+.order__box--radio {
+  border-radius: 50%;
+}
+
+.order__input:checked + .order__box--radio {
+  /*?*/
+}
+
+.order__input:checked + .order__box--check {
+  background-image: url("../img/icon-tick.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.order__input:focus + .order__box--check,
+.order__input:focus + .order__box--radio {
+  border: 2px solid $greyish-brown;
+  box-shadow: 0 0 0 4px $seafoam-blue;
+}
+
+.order__input:disabled + .order__box--check,
+.order__input:disabled + .order__box--radio {
+  box-shadow: 0 0 0 4px $grey;
+}
+
+.order__input:checked:disabled + .order__box--check,
+.order__input:checked:disabled + .order__box--radio {
+  box-shadow: 0 0 0 4px $grey;
+}
+
+.order__note {
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+
+  line-height: 1.1;
+
+  color: $greyish-brown;
+}
+
+.order__button {
+  margin-top: 30px;
+  padding: 15px 0;
 }
