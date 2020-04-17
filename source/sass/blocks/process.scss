@@ -38,6 +38,19 @@
 
   background-color: transparent;
   border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.process__button:hover,
+.process__button:focus {
+  transform: scale(1.2);
+}
+
+.process__button:active {
+  transform: scale(0.8);
+
+  opacity: 0.3;
 }
 
 .process__wrap {
