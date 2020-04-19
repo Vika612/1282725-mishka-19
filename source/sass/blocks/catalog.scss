@@ -21,11 +21,38 @@
 }
 
 .catalog-main__link {
+  position: relative;
   width: 320px;
   margin: 0 auto;
   padding: 27px 185px 27px 28px;
 
   display: block;
+}
+
+.catalog-main__link--interior::before {
+  position: absolute;
+  right: 35px;
+  content: url("../img/icon-interior.svg");
+  opacity: 0.5;
+}
+
+.catalog-main__link--toys::before {
+  position: absolute;
+  right: 25px;
+  content: url("../img/icon-toy.svg");
+  opacity: 0.5;
+}
+
+.catalog-main__link--interior:hover::before,
+.catalog-main__link--interior:focus::before,
+.catalog-main__link--toys:hover::before,
+.catalog-main__link--toys:focus::before {
+  opacity: 0.7;
+}
+
+.catalog-main__link--interior:active::before,
+.catalog-main__link--toys:active::before {
+  opacity: 0.3;
 }
 
 .catalog-main__item--interior {

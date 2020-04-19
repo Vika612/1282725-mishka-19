@@ -1,15 +1,8 @@
 .process {
+  width: 320px;
+  margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 60px;
-}
-
-.process:hover .process__wrap,
-.process:focus .process__wrap {
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
-}
-
-.process:active .process__wrap {
-  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .process__wrap-title {
@@ -54,7 +47,7 @@
 }
 
 .process__wrap {
-  padding: 25px 48px 30px 35px;
+  padding: 25px 35px 30px;
 
   border: 1px solid $white-2;
 }
@@ -64,6 +57,15 @@
   padding-bottom: 25px;
 
   line-height: 1.8;
+}
+
+.process:hover .process__wrap,
+.process:focus .process__wrap {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.process:active .process__wrap {
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .process__link {

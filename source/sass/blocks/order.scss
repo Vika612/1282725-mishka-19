@@ -1,4 +1,6 @@
 .order {
+  width: 320px;
+  margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 55px;
 }
@@ -9,11 +11,21 @@
 }
 
 .order__field {
+  position: relative;
   margin: 0;
   padding: 0;
 
   border: none;
-  border-top: 1px solid $seafoam-blue;
+}
+
+.order__field::after {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  content: "";
+  width: 198px;
+  height: 1px;
+  background-color: $seafoam-blue;
 }
 
 .order__field-user {
@@ -30,7 +42,6 @@
 .order__set {
   position: relative;
 
-  width: 260px;
   margin: 0;
   padding: 0;
 }
@@ -38,7 +49,7 @@
 .order-list__item {
   margin: 0;
   margin-bottom: 22px;
-  padding: 10px 80px 12px 0;
+  padding: 10px 0 12px 0;
 }
 
 .order-list__item:first-child {
@@ -55,7 +66,6 @@
 
 .order__sign {
   display: block;
-
   width: 260px;
   padding-left: 65px;
 
@@ -94,10 +104,6 @@
   border-radius: 50%;
 }
 
-.order__input:checked + .order__box--radio {
-  /*?*/
-}
-
 .order__input:checked + .order__box--check {
   background-image: url("../img/icon-tick.svg");
   background-repeat: no-repeat;
@@ -128,7 +134,7 @@
 }
 
 .order__input-user {
-  width: 260px;
+  width: 100%;
   padding: 15px 0;
   border: none;
   border-bottom: 2px solid $black;
@@ -137,6 +143,7 @@
 .order__textarea {
   height: 140px;
   margin-top: 30px;
+  padding: 17px;
   border: 2px solid $greyish-brown;
   resize: none;
 }
