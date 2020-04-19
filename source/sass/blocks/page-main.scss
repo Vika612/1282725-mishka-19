@@ -1,10 +1,11 @@
 .page-main {
-  width: 320px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .page-main__title {
-  margin: 0;
+  width: 250px;
+  margin: 0 auto;
 
   font-family: "Open Sans", "Tahoma", sans-serif;
   font-size: 27px;
@@ -13,7 +14,7 @@
   line-height: 1.1;
   text-align: center;
 
-  color: #010000;
+  color: $black-1;
 }
 
 .page-main__title-wrap {
@@ -27,7 +28,7 @@
 .page-main__title-inner {
   padding: 75px 20px;
 
-  background-color: #f1f1f1;
+  background-color: $white-1;
 }
 
 .button {
@@ -40,16 +41,17 @@
   line-height: 1.2;
 
   text-transform: uppercase;
-  border: 2px solid #444444;
+  border: 2px solid $greyish-brown;
   cursor: pointer;
 
-  color: #444444;
+  background-color: transparent;
+  color: $greyish-brown;
 }
 
 .button:hover,
 .button:focus {
-  color: #ffffff;
-  background-color: #444444;
+  color: $white;
+  background-color: $greyish-brown;
 }
 
 .button:active {

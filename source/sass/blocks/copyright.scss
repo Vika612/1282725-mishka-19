@@ -15,16 +15,16 @@
 
   line-height: 1;
 
-  color: #000000;
+  color: $black;
 }
 
 .copyright__link--img {
-  fill: #63d1bb;
+  fill: $seafoam-blue;
 }
 
 .copyright__link:hover .copyright__link--img,
 .copyright__link:focus .copyright__link--img {
-  fill: #46c1ae;
+  fill: $greeny-blue-1;
 }
 
 .copyright__link:active {

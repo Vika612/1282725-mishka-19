@@ -1,11 +1,16 @@
+.title-main--advantages {
+  margin-bottom: 35px;
+}
+
 .advantages__list {
   margin: 0;
-  margin-bottom: 60px;
   padding-left: 0;
+  padding-bottom: 30px;
 }
 
 .advantages__item {
-  padding: 65px 0 0;
+  margin-bottom: 30px;
+  padding: 35px 0 0;
 
   font-family: "Open Sans", "Tahoma", sans-serif;
   font-size: 17px;
@@ -13,7 +18,11 @@
 
   line-height: 1.2;
 
-  color: #000000;
+  color: $black;
+}
+
+.advantages__item:last-child {
+  margin-bottom: 0;
 }
 
 .advantages__item--ecology,
@@ -27,6 +36,33 @@
   padding-right: 45px;
 }
 
+.advantages__item--ecology {
+  background-image: url("../img/icon-feature-flower.svg");
+  background-repeat: no-repeat;
+}
+
+.advantages__item--style {
+  background-image: url("../img/icon-feature-money.svg");
+  background-repeat: no-repeat;
+}
+
+.advantages__item--like {
+  background-image: url("../img/icon-feature-heart.svg");
+  background-repeat: no-repeat;
+}
+
+.advantages__item--love {
+  background-image: url("../img/icon-feature-ball.svg");
+  background-repeat: no-repeat;
+}
+
+.advantages__item--support {
+  background-image: url("../img/icon-feature-rocket.svg");
+  background-repeat: no-repeat;
+}
+
 .advantages__item--gift {
   padding-right: 25px;
+  background-image: url("../img/icon-feature-gift.svg");
+  background-repeat: no-repeat;
 }

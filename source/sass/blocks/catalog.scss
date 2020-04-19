@@ -7,7 +7,7 @@
 
   line-height: 1.3;
 
-  color: #ffffff;
+  color: $white;
 }
 
 .catalog-main__title:active {
@@ -21,24 +21,27 @@
 }
 
 .catalog-main__link {
-  display: block;
+  width: 320px;
+  margin: 0 auto;
   padding: 27px 185px 27px 28px;
+
+  display: block;
 }
 
 .catalog-main__item--interior {
-  background-color: #63d1bb;
+  background-color: $seafoam-blue;
 }
 
 .catalog-main__item--interior:hover,
 .catalog-main__item--interior:focus {
-  background-color: #59d5bc;
+  background-color: $seafoam-blue-1;
 }
 
 .catalog-main__item--toys {
-  background-color: #56c3b2;
+  background-color: $greeny-blue;
 }
 
 .catalog-main__item--toys:hover,
 .catalog-main__item--toys:focus {
-  background-color: #46c1ae;
+  background-color: $greeny-blue-1;
 }
