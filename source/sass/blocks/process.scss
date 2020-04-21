@@ -1,5 +1,5 @@
 .process {
-  width: 320px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -75,4 +75,22 @@
   padding: 15px 0;
 
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .process {
+    width: 768px;
+  }
+
+  .process__video {
+    height: 455px;
+  }
+
+  .process__wrap {
+    padding: 40px;
+  }
+
+  .process__link {
+    width: 100%;
+  }
 }

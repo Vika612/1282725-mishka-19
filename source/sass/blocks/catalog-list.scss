@@ -9,6 +9,10 @@
   border: 1px solid $white-2;
 }
 
+.catalog-list__item {
+  margin-bottom: 50px;
+}
+
 .catalog-list__item:hover .catalog-list__desc,
 .catalog-list__item:focus .catalog-list__desc {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
@@ -43,7 +47,6 @@
   padding-bottom: 20px;
 
   line-height: 2.3;
-  box-shadow: 0 1px 0 0 $white-2;
 }
 
 .catalog-list__wrap {
@@ -52,6 +55,8 @@
 
   padding-top: 25px;
   padding-bottom: 30px;
+
+  border-top: 1px solid $white-2;
 }
 
 .catalog-list__price {
@@ -78,4 +83,30 @@
 
 .catalog-list__item:active .catalog-list__button--cart {
   opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  .catalog-list__item {
+    display: flex;
+    justify-content: center;
+    height: 334px;
+  }
+
+  .catalog-list__desc {
+    width: 335px;
+    margin: 0;
+    padding: 0 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .catalog-list__link {
+    width: 334px;
+  }
+
+  .catalog-list__wrap {
+    padding: 25px 0;
+  }
 }

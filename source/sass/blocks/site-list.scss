@@ -28,14 +28,27 @@
   margin: 0;
   padding-left: 0;
   /*display: none;*/
+  outline: 1px solid red;
 }
 
 .site-list__item {
   padding: 30px 9px 30px 70px;
   box-shadow: 0 1px 0 0 $white-2;
+  outline: 1px solid green;
 }
 
 .site-list__item--search,
 .site-list__item--cart {
   padding-left: 25px;
+}
+
+@media (min-width: 768px) {
+  .site-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .site-list__item {
+    padding: 0;
+  }
 }

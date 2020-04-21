@@ -78,3 +78,11 @@
 .reviews__link {
   display: block;
 }
+
+@media (min-width: 768px) {
+  .reviews__wrapper {
+    height: 530px;
+    background-image: url("../img/review@1x.jpg");
+    background-repeat: no-repeat;
+  }
+}

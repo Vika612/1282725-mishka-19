@@ -66,3 +66,23 @@
   background-image: url("../img/icon-feature-gift.svg");
   background-repeat: no-repeat;
 }
+
+@media (min-width: 768px) {
+  .advantages__wrapper {
+    height: 600px;
+    margin-bottom: 35px;
+    padding-top: 35px;
+  }
+
+  .advantages__list {
+    padding-right: 75px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .advantages__item {
+    width: 260px;
+  }
+}

@@ -5,6 +5,39 @@
   background-color: $white-1;
 }
 
+.page-footer__logo {
+  display: none;
+}
+
 .page-footer__social {
   border-bottom: 2px solid $white-2;
+}
+
+@media (min-width: 768px) {
+  .page-footer__logo {
+    margin-right: 75px;
+    display: block;
+  }
+
+  .page-footer__logo[href]:hover,
+  .page-footer__logo[href]:focus {
+    fill: $greeny-blue-1;
+  }
+
+  .page-footer__logo[href]:active {
+    opacity: 0.3;
+  }
+
+  .page-footer__wrapper {
+    width: 768px;
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .page-footer__social {
+    border-bottom: none;
+  }
 }

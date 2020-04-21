@@ -82,3 +82,17 @@ body {
 
   color: #444444;
 }
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 668px;
+    margin: 0 auto;
+    outline: 1px solid lightskyblue;
+  }
+
+  .title-main {
+    margin-top: 0;
+    font-size: 43px;
+    line-height: 1;
+  }
+}

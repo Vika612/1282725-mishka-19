@@ -22,11 +22,17 @@
 
 .catalog-main__link {
   position: relative;
+
   width: 320px;
   margin: 0 auto;
   padding: 27px 185px 27px 28px;
 
   display: block;
+  transition: 0.1s;
+}
+
+.catalog-main__link:hover {
+  padding: 22px 185px 32px 28px;
 }
 
 .catalog-main__link--interior::before {
@@ -55,6 +61,10 @@
   opacity: 0.3;
 }
 
+.catalog-main__item:hover {
+  transform: scaleY(1.05);
+}
+
 .catalog-main__item--interior {
   background-color: $seafoam-blue;
 }
@@ -71,4 +81,25 @@
 .catalog-main__item--toys:hover,
 .catalog-main__item--toys:focus {
   background-color: $greeny-blue-1;
+}
+
+@media (min-width: 768px) {
+  .catalog-inner {
+    padding-top: 80px;
+  }
+
+  .catalog-main {
+    display: flex;
+    justify-content: center;
+    margin-top: -117px;
+  }
+
+  .catalog-main__link {
+    width: 334px;
+    padding: 34px 185px 34px 35px;
+  }
+
+  .catalog-main__link:hover {
+    padding: 29px 185px 39px 35px;
+  }
 }

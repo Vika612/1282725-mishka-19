@@ -30,3 +30,14 @@
 .copyright__link:active {
   opacity: 0.3;
 }
+
+@media (min-width: 768px) {
+  .copyright {
+    margin: 0;
+    padding: 0;
+  }
+
+  .copyright__link--text {
+    padding-right: 30px;
+  }
+}
