@@ -44,55 +44,5 @@ body {
   font-weight: normal;
   line-height: 1.6;
   color: #444444;
-}
-
-.wrapper {
-  width: 260px;
-  margin: 0 auto;
-}
-
-.title-main {
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 5px;
-
-  font-family: "Open Sans", "Tahoma", sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-
-  line-height: 1.2;
-
-  color: #000000;
-}
-
-.title-inner {
-  font-family: "Open Sans", "Tahoma", sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-
-  line-height: 1.4;
-
-  color: #000000;
-}
-
-.description-inner {
-  font-family: "Open Sans", "Tahoma", sans-serif;
-  font-size: 13px;
-  font-weight: normal;
-
-  color: #444444;
-}
-
-@media (min-width: 768px) {
-  .wrapper {
-    width: 668px;
-    margin: 0 auto;
-    outline: 1px solid lightskyblue;
-  }
-
-  .title-main {
-    margin-top: 0;
-    font-size: 43px;
-    line-height: 1;
-  }
+  outline: 2px solid grey;
 }

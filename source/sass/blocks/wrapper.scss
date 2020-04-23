@@ -1,0 +1,17 @@
+.wrapper {
+  width: 260px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 668px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .wrapper {
+    width: 1050px;
+    outline: 1px solid blueviolet;
+  }
+}

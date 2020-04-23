@@ -2,11 +2,6 @@
   margin-top: 40px;
 }
 
-.contacts__wrapper {
-  width: 320px;
-  margin: 0 auto;
-}
-
 .contacts__title {
   margin: 0;
   padding-top: 45px;
@@ -21,14 +16,14 @@
   color: $black;
 }
 
-.contacts__mail {
+.contacts__wrap-mail {
   display: flex;
   margin-top: 15px;
   margin-bottom: 35px;
 }
 
 .contacts__mail--link {
-  border-bottom: 1px solid $greeny-blue-1;
+  border-bottom: 1px solid $seafoam-blue;
 
   color: $greyish-brown;
 }
@@ -42,7 +37,7 @@
   opacity: 0.3;
 }
 
-.contacts__address-wrap {
+.contacts__wrap-address {
   display: flex;
   margin-bottom: 40px;
 }
@@ -62,9 +57,95 @@
   margin: 0;
 }
 
+.contacts__iframe {
+  width: 100%;          /*как растянуть карту на весь вьюпорт?*/
+}
+
 .contacts__link {
   display: block;
-  margin-left: 30px;
+
   margin-top: 30px;
   padding: 15px 53px;
+
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .contacts__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+  }
+
+  .contacts__title {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 30px 0;
+
+    font-size: 43px;
+    line-height: 1;
+  }
+
+  .contacts__wrap {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .contacts__wrap-mail {
+    height: 30px;
+  }
+
+  .contacts__address {
+    width: 250px;
+    margin-top: 0;
+  }
+
+  .contacts__link-wrap {
+    padding-bottom: 15px;
+  }
+
+  .contacts__link {
+    width: 230px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px 20px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .contacts {
+    height: 500px;
+    margin-bottom: 30px;
+  }
+
+  .contacts__wrapper {
+    position: relative;
+    display: flex;
+  }
+
+  .contacts__block {
+    padding-top: 75px;
+    padding-left: 175px;
+
+    flex-basis: 50%;
+  }
+
+  .contacts__map {
+    flex-basis: 50%;
+  }
+
+  .contacts__title {
+    width: 270px;
+    padding-top: 0;
+    font-size: 53px;
+  }
+
+  .contacts__link {
+    position: relative;
+    z-index: 1;
+    right: 240px;
+    bottom: 110px;
+  }
 }

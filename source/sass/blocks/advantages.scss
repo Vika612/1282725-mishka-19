@@ -69,13 +69,12 @@
 
 @media (min-width: 768px) {
   .advantages__wrapper {
-    height: 600px;
-    margin-bottom: 35px;
     padding-top: 35px;
   }
 
   .advantages__list {
-    padding-right: 75px;
+    margin-top: 55px;
+    padding-right: 50px;
 
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +82,17 @@
   }
 
   .advantages__item {
-    width: 260px;
+    width: 295px;
+    padding-bottom: 30px;
+
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1150px) {
+  .advantages__wrapper {
+    padding-left: 125px;
+    padding-right: 225px;
   }
 }

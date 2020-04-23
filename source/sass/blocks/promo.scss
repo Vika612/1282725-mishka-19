@@ -26,15 +26,6 @@
   color: $greyish-brown;
 }
 
-.specif-list {
-  border-spacing: 0;
-}
-
-.specif-list__item td {
-  padding: 7px 30px 7px 0;
-  border-bottom: 1px solid $white-2;
-}
-
 @media (min-width: 768px) {
   .promo__title-wrap {
     width: 100%;
@@ -68,10 +59,6 @@
     padding-bottom: 40px;
     font-size: 17px;
     line-height: 1.8;
-  }
-
-  .specif-list__item td {
-    padding: 7px 45px 7px 0;
   }
 
   .promo__price-wrap {

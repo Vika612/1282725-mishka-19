@@ -32,33 +32,6 @@
   background-color: $white-1;
 }
 
-.button {
-  width: 260px;
-  padding: 15px 85px;
-
-  font-family: "Open Sans", "Tahoma", sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-  line-height: 1.2;
-
-  text-transform: uppercase;
-  border: 2px solid $greyish-brown;
-  cursor: pointer;
-
-  background-color: transparent;
-  color: $greyish-brown;
-}
-
-.button:hover,
-.button:focus {
-  color: $white;
-  background-color: $greyish-brown;
-}
-
-.button:active {
-  color: rgba(255, 255, 255, 0.3);
-}
-
 @media (min-width: 768px) {
   .page-main__title-wrap {
     height: 746px;
@@ -69,5 +42,17 @@
   .page-main__title {
     width: 500px;
     font-size: 43px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page-main__title-wrap {
+    padding-top: 140px;
+    background-image: url("../img/hero-desktop@1x.jpg");
+  }
+
+  .page-main__title {
+    width: 650px;
+    font-size: 53px;
   }
 }
