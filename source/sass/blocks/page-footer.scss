@@ -15,8 +15,8 @@
 
 @media (min-width: 768px) {
   .page-footer__logo {
-    margin-right: 75px;
     display: block;
+    margin-right: 75px;
   }
 
   .page-footer__logo[href]:hover,
@@ -29,8 +29,7 @@
   }
 
   .page-footer__wrapper {
-    width: 768px;
-    padding: 50px;
+    padding: 50px 0;
 
     display: flex;
     justify-content: space-between;
@@ -39,11 +38,5 @@
 
   .page-footer__social {
     border-bottom: none;
-  }
-}
-
-@media (min-width: 1150px) {
-  .page-footer__wrapper {
-    width: 1150px;
   }
 }
