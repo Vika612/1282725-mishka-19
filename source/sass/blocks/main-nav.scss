@@ -15,6 +15,17 @@
   right: 30px;
 }
 
+.main-nav__list {
+  margin: 0;
+  padding-left: 0;
+  /*display: none;*/
+}
+
+.main-nav__service {
+  display: none;
+}
+
+
 @media (min-width: 768px) {
   .main-nav__toggle {
     display: none;

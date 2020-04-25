@@ -25,12 +25,6 @@
   margin-bottom: 0;
 }
 
-.advantages__item--ecology,
-.advantages__item--like,
-.advantages__item--gift {
-  padding-right: 70px;
-}
-
 .advantages__item--style,
 .advantages__item--love {
   padding-right: 45px;
@@ -68,22 +62,21 @@
 }
 
 @media (min-width: 768px) {
-  .advantages__wrapper {
-    padding-top: 0;
-  }
-
-  .advantages__list {
+  .advantages__list-wrap {
     margin-top: 55px;
-    padding-right: 50px;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
+  .advantages__list {
+    flex-basis: 50%;
+  }
+
   .advantages__item {
-    width: 295px;
-    padding-bottom: 30px;
+    min-height: 125px;
+    padding-right: 43px;
 
     font-size: 20px;
     line-height: 1;

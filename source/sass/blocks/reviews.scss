@@ -36,16 +36,18 @@
 }
 
 .reviews__nav {
-  display: flex;
-  justify-content: space-around;
+  width: 260px;
   margin-top: 30px;
   margin-bottom: 36px;
+
+  display: flex;
+  justify-content: space-around;
 
   border: 1px solid $white-2;
 }
 
 .reviews__btn {
-  width: 130px;
+  flex-basis: 50%;
   padding-top: 15px;
   padding-bottom: 10px;
 
@@ -81,9 +83,7 @@
 
 @media (min-width: 768px) {
   .reviews {
-    width: 768px;
-    margin: 0 auto;
-    padding-bottom: 0;
+
 
     background-image: url("../img/review@1x.jpg");
     background-repeat: no-repeat;

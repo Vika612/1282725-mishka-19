@@ -1,16 +1,19 @@
 .wrapper {
-  width: 260px;
+  max-width: 768px;
   margin: 0 auto;
+  padding: 0 30px;
 }
 
 @media (min-width: 768px) {
   .wrapper {
-    width: 668px;
+    max-width: 1150px;
+    padding: 0 50px;
   }
 }
 
 @media (min-width: 1150px) {
   .wrapper {
-    width: 1050px;
+    max-width: 100%;
+    padding: 0 50px;
   }
 }

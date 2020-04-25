@@ -1,0 +1,17 @@
+.stock-list {
+  display: none;
+}
+
+.stock-list__link {
+  font-weight: bold;
+  color: $black;
+}
+
+.stock-list__item:hover .stock-list__link,
+.stock-list__item:focus .stock-list__link {
+  opacity: 0.6;
+}
+
+.stock-list__item:active .stock-list__link {
+  opacity: 0.3;
+}

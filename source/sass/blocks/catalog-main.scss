@@ -1,4 +1,11 @@
+.catalog-main {
+  margin: 0;
+  margin-top: 125px;
+  padding: 0;
+}
+
 .catalog-main__title {
+  width: 110px;
   margin: 0;
 
   font-family: "Open Sans", "Tahoma", sans-serif;
@@ -12,12 +19,6 @@
 
 .catalog-main__title:active {
   opacity: 0.3;
-}
-
-.catalog-main {
-  margin: 0;
-  margin-top: -70px;
-  padding-left: 0;
 }
 
 .catalog-main__link {
@@ -87,24 +88,19 @@
   .catalog-main {
     display: flex;
     justify-content: center;
-    margin-top: -117px;
+  }
+
+  .catalog-main__item {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
   }
 
   .catalog-main__title {
-    width: 110px;
     margin: 0;
 
     font-size: 20px;
     line-height: 1.5;
-  }
-
-  .catalog-main__link {
-    width: 334px;
-    padding: 34px 185px 34px 35px;
-  }
-
-  .catalog-main__link:hover {
-    padding: 29px 185px 39px 35px;
   }
 }
 

@@ -1,0 +1,41 @@
+.user-list__item:hover .user-list__link,
+.user-list__item:focus .user-list__link {
+  opacity: 0.6;
+}
+
+.user-list__item:active .user-list__link {
+  opacity: 0.3;
+}
+
+.user-list__link--icon {
+  margin-right: 20px;
+  fill: $black-2;
+  opacity: 0.2;
+}
+
+.user-list__item:hover .user-list__link--icon,
+.user-list__item:focus .user-list__link--icon {
+  fill: $seafoam-blue;
+  opacity: 1;
+}
+
+.user-list__item:active .user-list__link--icon {
+  fill: $seafoam-blue;
+  opacity: 0.3;
+}
+
+.user-list {
+  margin: 0;
+  padding-left: 0;
+  /*display: none;*/
+}
+
+.user-list__item {
+  padding: 30px 9px 30px 70px;
+  box-shadow: 0 1px 0 0 $white-2;
+}
+
+.user-list__item--search,
+.user-list__item--cart {
+  padding-left: 25px;
+}

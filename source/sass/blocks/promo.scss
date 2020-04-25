@@ -1,4 +1,5 @@
 .promo {
+  margin-top: 150px;
   padding-bottom: 36px;
 }
 
@@ -18,11 +19,14 @@
   margin-top: 30px;
 }
 
+.promo__price-wrap {
+  width: 290px;
+}
+
 .promo__price {
   padding-bottom: 25px;
 
   text-align: center;
-
   color: $greyish-brown;
 }
 

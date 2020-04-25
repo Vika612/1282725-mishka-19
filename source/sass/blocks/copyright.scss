@@ -4,11 +4,12 @@
 
 .copyright__link {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .copyright__link--text {
+  padding-right: 30px;
   font-family: "Open Sans", "Tahoma", sans-serif;
   font-size: 19px;
   font-weight: bold;
@@ -35,9 +36,5 @@
   .copyright {
     margin: 0;
     padding: 0;
-  }
-
-  .copyright__link--text {
-    padding-right: 30px;
   }
 }
