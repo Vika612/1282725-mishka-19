@@ -15,3 +15,18 @@
 .stock-list__item:active .stock-list__link {
   opacity: 0.3;
 }
+
+@media (min-width: 1150px) {
+  .stock-list {
+    position: absolute;
+    top: 90px;
+    left: 10px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stock-list__item:first-child {
+    padding-right: 60px;
+  }
+}

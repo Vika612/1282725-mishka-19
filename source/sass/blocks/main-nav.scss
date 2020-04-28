@@ -77,3 +77,24 @@
     justify-content: space-between;
   }
 }
+
+@media (min-width: 1150px) {
+  .main-nav__logo {
+    flex-basis: 65%;
+    padding-right: 100px;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+    order: 2;
+  }
+
+  .main-nav__logo-image {
+    width: 150px;
+    height: 72px;
+  }
+
+  .main-nav__service {
+    top: 90px;
+    right: 55px;
+  }
+}
