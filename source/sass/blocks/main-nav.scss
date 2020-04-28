@@ -9,10 +9,26 @@
   box-shadow: 0 1px 0 0 $white-2;
 }
 
+.main-nav__logo[href]:hover,
+.main-nav__logo[href]:focus {
+  opacity: 0.6;
+}
+
+.main-nav__logo[href]:active {
+  opacity: 0.3;
+}
+
 .main-nav__toggle {
   position: absolute;
-  top: 20px;
+  top: 30px;
   right: 30px;
+
+  width: 20px;
+  height: 15px;
+  background-color: transparent;
+  border: none;
+  background-image: url("../img/icon-menu-open.svg");
+  background-repeat: no-repeat;
 }
 
 .main-nav__list {
@@ -25,9 +41,39 @@
   display: none;
 }
 
-
 @media (min-width: 768px) {
   .main-nav__toggle {
     display: none;
+  }
+
+  .main-nav__service {
+    position: absolute;
+    top: 85px;
+    right: 45px;
+
+    display: block;
+  }
+
+  .main-nav__logo {
+    flex-basis: 27%;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 1px 0 0 $white-2;
+  }
+
+  .main-nav__logo-image {
+    width: 112px;
+    height: 46px;
+  }
+
+  .main-nav {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }

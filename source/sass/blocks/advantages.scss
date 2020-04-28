@@ -5,12 +5,12 @@
 .advantages__list {
   margin: 0;
   padding-left: 0;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 
 .advantages__item {
   margin-bottom: 30px;
-  padding: 35px 0 0;
+  padding: 0;
 
   font-family: "Open Sans", "Tahoma", sans-serif;
   font-size: 17px;
@@ -30,61 +30,66 @@
   padding-right: 45px;
 }
 
-.advantages__item--ecology {
-  background-image: url("../img/icon-feature-flower.svg");
-  background-repeat: no-repeat;
-}
-
-.advantages__item--style {
-  background-image: url("../img/icon-feature-money.svg");
-  background-repeat: no-repeat;
-}
-
-.advantages__item--like {
-  background-image: url("../img/icon-feature-heart.svg");
-  background-repeat: no-repeat;
-}
-
-.advantages__item--love {
-  background-image: url("../img/icon-feature-ball.svg");
-  background-repeat: no-repeat;
-}
-
-.advantages__item--support {
-  background-image: url("../img/icon-feature-rocket.svg");
-  background-repeat: no-repeat;
-}
-
-.advantages__item--gift {
-  padding-right: 25px;
-  background-image: url("../img/icon-feature-gift.svg");
-  background-repeat: no-repeat;
-}
-
 @media (min-width: 768px) {
-  .advantages__list-wrap {
-    margin-top: 55px;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  .advantages__wrapper {
+    margin-bottom: 80px;
+    padding-bottom: 25px;
   }
 
   .advantages__list {
-    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .advantages__item {
-    min-height: 125px;
-    padding-right: 43px;
+    flex-basis: 50%;
+    min-height: 127px;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-right: 37px;
 
     font-size: 20px;
     line-height: 1;
   }
+
+  .advantages__item--ecology {
+    order: 1;
+  }
+
+  .advantages__item--love {
+    order: 2;
+  }
+
+  .advantages__item--style {
+    order: 3;
+  }
+
+  .advantages__item--support {
+    order: 4;
+  }
+
+  .advantages__item--like {
+    order: 5;
+  }
+
+  .advantages__item--gift {
+    order: 6;
+  }
 }
 
 @media (min-width: 1150px) {
-  .advantages__wrapper {
-    padding: 40px 175px 0;
+  .advantages__list {
+    margin-top: 50px;
+    padding: 0 175px 0;
+  }
+
+  .advantages__item {
+    margin-bottom: 20px;
+    padding-right: 54px;
+  }
+
+  .advantages__title {
+    margin-bottom: 0;
+    padding-left: 175px;
   }
 }

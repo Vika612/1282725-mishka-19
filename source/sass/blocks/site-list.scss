@@ -11,9 +11,24 @@
   padding: 30px 9px 30px 70px;
   box-shadow: 0 1px 0 0 $white-2;
 }
-/*
+
 @media (min-width: 768px) {
-  .site-list__item {
+  .site-list {
+    position: absolute;
+    top: 70px;
+    left: -30px;
     padding: 0;
+
+    display: flex;
+    order: 1;
   }
-}*/
+
+  .site-list__item {
+    box-shadow: none;
+  }
+
+  .site-list__link {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}

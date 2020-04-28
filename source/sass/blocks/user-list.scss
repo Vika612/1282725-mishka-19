@@ -39,3 +39,26 @@
 .user-list__item--cart {
   padding-left: 25px;
 }
+
+@media (min-width: 768px) {
+  .user-list {
+    flex-basis: 73%;
+    display: flex;
+    justify-content: flex-end;
+    order: 0;
+
+    box-shadow: 0 1px 0 0 $white-2;
+  }
+
+  .user-list__item {
+    box-shadow: 0 0 0 1px $white-2;
+  }
+
+  .user-list__item--cart {
+    padding-right: 45px;
+  }
+
+  .use-list__link--note {
+    display: none;
+  }
+}
