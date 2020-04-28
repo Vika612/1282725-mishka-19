@@ -78,6 +78,10 @@
 }
 
 @media (min-width: 1150px) {
+  .advantages__wrapper {
+    margin-bottom: 0;
+  }
+
   .advantages__list {
     margin-top: 50px;
     padding: 0 175px 0;
