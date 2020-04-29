@@ -27,7 +27,7 @@
     justify-content: space-around;
   }
 
-  .stock-list__item:first-child {
-    padding-right: 50px;
+  .stock-list__item:nth-child(2n) {
+    padding-left: 70px;
   }
 }
