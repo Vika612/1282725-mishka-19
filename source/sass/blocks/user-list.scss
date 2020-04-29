@@ -42,12 +42,11 @@
 
 @media (min-width: 768px) {
   .user-list {
-    flex-basis: 73%;
+    flex-basis: 50%;
+
     display: flex;
     justify-content: flex-end;
     order: 0;
-
-    box-shadow: 0 1px 0 0 $white-2;
   }
 
   .user-list__item {
@@ -55,7 +54,7 @@
   }
 
   .user-list__item--cart {
-    padding-right: 45px;
+    padding-right: 50px;
   }
 
   .use-list__link--note {
@@ -66,7 +65,7 @@
 @media (min-width: 1150px) {
   .user-list {
     flex-basis: 35%;
-    padding-right: 15px;
+    padding-right: 0;
     order: 3;
   }
 }

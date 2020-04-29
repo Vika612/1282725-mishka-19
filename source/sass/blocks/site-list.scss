@@ -15,15 +15,22 @@
 @media (min-width: 768px) {
   .site-list {
     position: absolute;
-    top: 70px;
-    left: -30px;
-    padding: 0;
+    top: 105px;
+    left: -20px;
+    z-index: 1;
 
+    width: 50%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     order: 1;
   }
 
   .site-list__item {
+    padding: 0;
+    padding-left: 35px;
+
     box-shadow: none;
   }
 
@@ -35,9 +42,8 @@
 
 @media (min-width: 1150px) {
   .site-list {
-    order: 1;
-    top: 0;
-    left: -20px;
+    position: static;
+    flex-basis: 40%;
   }
 
   .site-list__link {

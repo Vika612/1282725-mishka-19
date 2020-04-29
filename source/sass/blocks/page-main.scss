@@ -18,6 +18,7 @@
 }
 
 .page-main__title-wrap {
+  position: relative;
   height: 375px;
   padding: 0;
 
@@ -34,6 +35,7 @@
     justify-content: space-between;
 
     height: 746px;
+    margin-bottom: 20px;
     padding: 0 50px;
     background-image: url("../img/hero-tablet@1x.jpg");
   }
@@ -47,6 +49,7 @@
 
 @media (min-width: 1150px) {
   .page-main__title-wrap {
+    margin-bottom: 0;
     background-image: url("../img/hero-desktop@1x.jpg");
   }
 

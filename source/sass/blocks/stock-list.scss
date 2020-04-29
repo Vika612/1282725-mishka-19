@@ -19,14 +19,15 @@
 @media (min-width: 1150px) {
   .stock-list {
     position: absolute;
-    top: 90px;
+    top: 100px;
     left: 10px;
+    z-index: 1;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .stock-list__item:first-child {
-    padding-right: 60px;
+    padding-right: 50px;
   }
 }
