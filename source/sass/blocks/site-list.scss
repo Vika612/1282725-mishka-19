@@ -22,7 +22,7 @@
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     order: 1;
   }
@@ -44,6 +44,11 @@
   .site-list {
     position: static;
     flex-basis: 40%;
+    padding-left: 15px;
+  }
+
+  .site-list__item:first-child {
+    padding-right: 35px;
   }
 
   .site-list__link {
