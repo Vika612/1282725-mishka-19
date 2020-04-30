@@ -5,7 +5,6 @@
 }
 
 .page-inner__title {
-  width: 250px;
   margin: 0 auto;
 
   font-family: "Open Sans", "Tahoma", sans-serif;
@@ -16,4 +15,21 @@
   text-align: center;
 
   color: $black-1;
+}
+
+@media (min-width: 768px) {
+  .page-inner__title-wrap {
+    margin-bottom: 85px;
+  }
+
+  .page-inner__title {
+    padding-top: 25px;
+    font-size: 43px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page-inner__title {
+    font-size: 53px;
+  }
 }
