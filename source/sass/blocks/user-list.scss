@@ -42,11 +42,11 @@
 
 @media (min-width: 768px) {
   .user-list {
-    flex-basis: 50%;
+    /*flex-basis: 50%;*/
 
     display: flex;
-    justify-content: flex-end;
-    order: 0;
+    /*justify-content: flex-end;*/
+    /*order: 0;*/
   }
 
   .user-list__item {
@@ -55,7 +55,7 @@
   }
 
   .user-list__item--cart {
-    padding-right: 50px;
+    /*padding-right: 40px;*/
   }
 
   .use-list__link--note {
