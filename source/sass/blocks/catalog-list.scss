@@ -6,7 +6,6 @@
 .catalog-list__desc {
   padding: 0 30px;
   border: 1px solid $white-2;
-  border-top: none;
 }
 
 .catalog-list__item:hover .catalog-list__desc,
@@ -30,12 +29,12 @@
   padding-bottom: 5px;
 }
 
-.catalog-list__item:hover .catalog-list__name,
-.catalog-list__item:focus .catalog-list__name {
+.catalog-list__name:hover,
+.catalog-list__name:focus {
   opacity: 0.6;
 }
 
-.catalog-list__item:active .catalog-list__name {
+.catalog-list__name:active {
   opacity: 0.3;
 }
 
@@ -73,13 +72,13 @@
   opacity: 0.2;
 }
 
-.catalog-list__item:hover .catalog-list__button--cart,
-.catalog-list__item:focus .catalog-list__button--cart {
+.catalog-list__button--cart:hover,
+.catalog-list__button--cart:focus {
   fill: $seafoam-blue;
   opacity: 1;
 }
 
-.catalog-list__item:active .catalog-list__button--cart {
+.catalog-list__button--cart:active {
   opacity: 0.3;
 }
 
@@ -159,11 +158,15 @@
     border-left: 1px solid $white-2;
   }
 
+  .catalog-list__link {
+    padding-right: 30px;
+  }
+
   .catalog-list__description {
     margin-top: 0;
   }
 
-  .catalog-list__link {
-    padding-right: 30px;
+  .catalog-list__wrap {
+    padding-top: 15px;
   }
 }

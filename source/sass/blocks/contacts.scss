@@ -1,5 +1,6 @@
 .contacts {
   position: relative;
+
   width: 100%;
   margin-bottom: 40px;
 }
@@ -75,6 +76,7 @@
 @media (min-width: 768px) {
   .contacts__block {
     position: relative;
+
     margin-bottom: 15px;
     padding-top: 0;
     padding-bottom: 40px;
@@ -130,22 +132,25 @@
 
 @media (min-width: 1150px) {
   .contacts {
-    padding: 70px;
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 20px 50px 50px;
+
     display: flex;
     justify-content: center;
   }
 
   .contacts__wrapper {
-    flex-basis: 50%;
     padding: 0;
   }
 
   .contacts__block {
-    flex-direction: column;
-    height: 400px;
-
+    margin-right: 20px;
     padding-top: 80px;
-    padding-left: 150px;
+    padding-left: 160px;
+
+    flex-direction: column;
   }
 
   .contacts__map {
@@ -163,7 +168,7 @@
   .contacts__title::after {
     position: absolute;
     top: 70px;
-    left: 40px;
+    left: 60px;
   }
 
   .contacts__link-wrap {
@@ -173,7 +178,7 @@
   .contacts__link {
     position: absolute;
     left: 225px;
-    bottom: 65px;
+    bottom: 45px;
 
     margin-top: 0;
   }
