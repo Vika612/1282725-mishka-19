@@ -1,0 +1,219 @@
+.order-form__field {
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+}
+
+.order-form__name {
+  position: relative;
+  line-height: 1;
+  text-transform: uppercase;
+  color: $seafoam-blue;
+}
+
+.order-form__name::after {
+  position: absolute;
+  top: 7px;
+  right: 0;
+
+  width: 198px;
+  height: 1px;
+
+  content: "";
+  background-color: $seafoam-blue;
+}
+
+.order-form__name--mail::after {
+  width: 179px;
+}
+
+.order-form__input {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.order-form__box {
+  position: absolute;
+
+  width: 40px;
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -65px;
+
+  border: 2px solid $greyish-brown;
+  background-color: transparent;
+}
+
+.order-form__box--radio {
+  border-radius: 50%;
+}
+
+.order-form__input:checked + .order-form__box--radio::after {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  width: 16px;
+  height: 16px;
+
+  border-radius: 50%;
+  background-color: $seafoam-blue-2;
+  content: "";
+}
+
+.order-form__input:checked + .order-form__box--check {
+  background-image: url("../img/icon-tick.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.order-form__input:hover + .order-form__box--check,
+.order-form__input:hover + .order-form__box--radio,
+.order-form__input:focus + .order-form__box--check,
+.order-form__input:focus + .order-form__box--radio {
+  border: 2px solid $seafoam-blue-2;
+}
+
+.order-form__input:active + .order-form__box--check,
+.order-form__input:active + .order-form__box--radio {
+  border: 2px solid $greyish-brown;
+  opacity: 0.3;
+}
+
+.order-form__input:disabled + .order-form__box--check,
+.order-form__input:disabled + .order-form__box--radio {
+  box-shadow: 0 0 0 4px $grey;
+}
+
+.order-form__input:checked:disabled + .order-form__box--check,
+.order-form__input:checked:disabled + .order-form__box--radio {
+  box-shadow: 0 0 0 4px $grey;
+}
+
+.order-form__set {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+}
+
+.order-form__item {
+  margin-bottom: 20px;
+  padding: 10px 0 12px 0;
+}
+
+.order-form__item:first-child {
+  margin-top: 25px;
+}
+
+.order-form__item--interior {
+  margin-bottom: 0;
+}
+
+.order-form__item-user {
+  padding: 0;
+}
+
+.order-form__sign {
+  display: block;
+  width: 260px;
+  padding-left: 65px;
+
+  line-height: 1;
+  cursor: pointer;
+
+  color: $black;
+}
+
+.order-form__sign-user {
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+}
+
+.order-form__input-user {
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  border-bottom: 2px solid $black;
+}
+
+.order-form__textarea {
+  height: 140px;
+  padding: 17px;
+  border: 2px solid $greyish-brown;
+  resize: none;
+}
+
+.order-form__input-user::placeholder {
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+
+  line-height: 1;
+
+  color: $greyish-brown;
+  opacity: 0.3;
+}
+
+.order-form__icon {
+  position: relative;
+}
+
+.order-form__icon--tel,
+.order-form__icon--mail {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  opacity: 0.2;
+}
+
+.order-form__sign-user:hover .order-form__input-user,
+.order-form__sign-user:active .order-form__input-user {
+  border-bottom: 2px solid $seafoam-blue-2;
+}
+
+.order-form__sign-user:hover .order-form__icon--tel,
+.order-form__sign-user:hover .order-form__icon--mail,
+.order-form__sign-user:active .order-form__icon--tel,
+.order-form__sign-user:active .order-form__icon--mail {
+  fill: $seafoam-blue-2;
+  opacity: 1;
+}
+
+.order-form__textarea:hover,
+.order-form__textarea:active {
+  border: 2px solid $seafoam-blue-2;
+}
+
+.order-form__note {
+  padding: 0 30px;
+
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+
+  line-height: 1.1;
+
+  color: $greyish-brown;
+}
+
+.order-form__button {
+  width: 260px;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 15px 0;
+}
+
+.order-form__wrapper--fullname {
+  margin-bottom: -10px;
+}
+
+.order-form__wrapper--textarea {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
