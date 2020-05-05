@@ -1,0 +1,31 @@
+.modal-popup {
+  padding: 35px 30px;
+  border: 1px solid $grey-2;
+  box-shadow: 0 5px 10px 0 rgba(0, 1, 1, 0.25);
+}
+
+.modal-popup__title {
+  width: 150px;
+  margin: 0 auto;
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  color: $black;
+}
+
+.modal-popup__info {
+  width: 150px;
+  margin: 0 auto;
+  padding-top: 13px;
+
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  font-size: 15px;
+
+  line-height: 2;
+
+  color: $greyish-brown;
+}

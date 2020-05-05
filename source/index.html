@@ -104,7 +104,7 @@
           <img class="promo__image" src="img/triple-set-mobile@1x.jpg" width="260" height="315" alt="Набор вязаных корзинок">
           <div class="promo__price-wrap">
             <p class="promo__price title-inner">Цена: 990 руб.</p>
-            <button class="promo__button button" type="button">Заказать</button>
+            <a class="promo__button button" href="#">Заказать</a>
           </div>
         </div>
       </section>
@@ -281,6 +281,28 @@
         </div>
       </div>
     </footer>
+
+    <!--popup-->
+
+    <section class="modal-popup">
+      <h2 class="modal-popup__title">Добавить в корзину</h2>
+      <p class="modal-popup__info">Выберите размер:</p>
+      <form class="modal-popup__form" action="http://echo.htmlacademy.ru" method="post">
+        <div class="modal-popup__wrapper">
+          <label>
+            <input class="modal-popup__input" type="radio" name="size" value="s" checked>S
+          </label>
+          <label>
+            <input class="modal-popup__input" type="radio" name="size" value="m">M
+          </label>
+          <label>
+            <input class="modal-popup__input" type="radio" name="size" value="l">L
+          </label>
+        </div>
+        <button class="modal-popup__button button" type="submit">Добавить</button>
+
+      </form>
+    </section>
 
   </body>
 </html>
