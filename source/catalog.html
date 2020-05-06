@@ -239,5 +239,24 @@
       </div>
     </footer>
 
+    <section class="modal-popup">
+      <h2 class="modal-popup__title">Добавить в корзину</h2>
+      <p class="modal-popup__info">Выберите размер:</p>
+      <form class="modal-popup__form" action="http://echo.htmlacademy.ru" method="post">
+        <div class="modal-popup__wrapper">
+          <label class="modal-popup__sign">
+            <input class="modal-popup__input visually-hidden" type="radio" name="size" checked>S
+          </label>
+          <label class="modal-popup__sign">
+            <input class="modal-popup__input visually-hidden" type="radio" name="size">M
+          </label>
+          <label class="modal-popup__sign">
+            <input class="modal-popup__input visually-hidden" type="radio" name="size">L
+          </label>
+        </div>
+        <button class="modal-popup__button button" type="submit">Добавить</button>
+      </form>
+    </section>
+
   </body>
 </html>
