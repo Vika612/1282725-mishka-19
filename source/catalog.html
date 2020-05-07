@@ -124,9 +124,9 @@
               </a>
               <div class="catalog-list__desc">
                 <a class="catalog-list__link" href="#">
-                  <h3 class="title-inner catalog-list__name">Большая корзинка для игрушек</h3>
+                  <h3 class="catalog-list__name title-inner">Большая корзинка для игрушек</h3>
                 </a>
-                <p class="description-inner catalog-list__description">Диаметр 30 см, высота 30см</p>
+                <p class="catalog-list__description description-inner">Диаметр 30 см, высота 30см</p>
                 <div class="catalog-list__wrap">
                   <span class="catalog-list__price">1 500 руб.</span>
                   <a class="catalog-list__button" href="add-to-cart.html" aria-label="Добавить в корзину">
@@ -142,14 +142,15 @@
       </section>
 
       <section class="process">
-        <div class="wrapper">
-          <div class="process__wrap-title">
-            <h3 class="title-inner process__title">Процесс производства</h3>
-          </div>
+        <div class="process__wrapper wrapper">
+          <h3 class="process__title title-inner">Процесс производства</h3>
           <div class="process__video">
-            <video class="" width="260" height="150" poster="img/video-mobile@1x.jpg">
-              <source src="#">
-            </video>
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/video-desktop@1x.jpg">
+              <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg">
+              <img class="process__image" src="img/video-mobile@1x.jpg" width="260" height="150" alt="постер на видеоплеер 'Процесс производства'">
+            </picture>
+
             <button class="process__button" type="button" aria-label="Воспроизвести">
               <svg version="1.1" id="video" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100.678px" height="76.891px" viewBox="247.3 382.56 100.678 76.891" enable-background="new 247.3 382.56 100.678 76.891" xml:space="preserve">
                 <g>
@@ -164,18 +165,19 @@
               </svg>
             </button>
           </div>
+
           <div class="process__wrap">
-            <p class="description-inner process__description">
+            <p class="process__description description-inner">
               По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
             </p>
-            <a class="button process__link" href="form.html">Сделать заказ</a>
+            <a class="process__link button" href="form.html">Сделать заказ</a>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="page-footer feedback">
-      <div class="wrapper page-footer__wrapper">
+      <div class="page-footer__wrapper wrapper">
         <a class="page-footer__logo" href="index.html">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="101.615px" height="34.056px" viewBox="0 0 101.615 34.056" enable-background="new 0 0 101.615 34.056" xml:space="preserve">
             <g>
@@ -236,6 +238,25 @@
         </div>
       </div>
     </footer>
+
+    <section class="modal-popup">
+      <h2 class="modal-popup__title">Добавить в корзину</h2>
+      <p class="modal-popup__info">Выберите размер:</p>
+      <form class="modal-popup__form" action="http://echo.htmlacademy.ru" method="post">
+        <div class="modal-popup__wrapper">
+          <label class="modal-popup__sign">
+            <input class="modal-popup__input visually-hidden" type="radio" name="size" checked>S
+          </label>
+          <label class="modal-popup__sign">
+            <input class="modal-popup__input visually-hidden" type="radio" name="size">M
+          </label>
+          <label class="modal-popup__sign">
+            <input class="modal-popup__input visually-hidden" type="radio" name="size">L
+          </label>
+        </div>
+        <button class="modal-popup__button button" type="submit">Добавить</button>
+      </form>
+    </section>
 
   </body>
 </html>
