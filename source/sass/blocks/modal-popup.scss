@@ -13,6 +13,7 @@
   font-size: 25px;
   font-weight: bold;
   line-height: 1.2;
+  text-align: center;
   text-transform: uppercase;
 
   color: $black;
@@ -25,19 +26,22 @@
 
   font-size: 15px;
   line-height: 2;
+  text-align: center;
 
   color: $greyish-brown;
 }
 
 .modal-popup__wrapper {
+  margin-top: 20px;
   margin-bottom: 30px;
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .modal-popup__sign {
-  padding: 20px 50px;
+  padding: 17px 33px;
 
   font-size: 17px;
   line-height: 1;
@@ -47,6 +51,15 @@
   color: $greyish-brown;
   background-color: $white;
   border: 2px solid rgba(68, 68, 68, 0.1);
+}
+
+.modal-popup__sign:hover,
+.modal-popup__sign:focus {
+  border: 2px solid rgba(68, 68, 68, 0.3);
+}
+
+.modal-popup__sign:active {
+  border: 2px solid $seafoam-blue-2;
 }
 
 .modal-popup__button {

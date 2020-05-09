@@ -5,12 +5,13 @@
 .advantages__list {
   margin: 0;
   padding-left: 0;
-  padding-bottom: 35px;
+  padding-bottom: 25px;
 }
 
 .advantages__item {
   margin-bottom: 30px;
   padding: 0;
+  padding-right: 50px;
 
   font-family: "Open Sans", "Tahoma", sans-serif;
   font-size: 17px;
@@ -21,13 +22,18 @@
   color: $black;
 }
 
-.advantages__item:last-child {
-  margin-bottom: 0;
+.advantages__item--like {
+  padding-right: 55px;
 }
 
-.advantages__item--style,
-.advantages__item--love {
-  padding-right: 45px;
+.advantages__item--support {
+  padding-top: 5px;
+  padding-right: 0;
+}
+
+.advantages__item:last-child {
+  margin-bottom: 0;
+  padding-top: 5px;
 }
 
 @media (min-width: 768px) {

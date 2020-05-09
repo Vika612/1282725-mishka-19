@@ -11,11 +11,11 @@
 }
 
 .order-form__wrapper--mail {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .order-form__wrapper--textarea {
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 10px;
 }
 
@@ -138,26 +138,20 @@
   background-position: center;
 }
 
-.order-form__input:hover + .order-form__box--check,
-.order-form__input:hover + .order-form__box--radio,
-.order-form__input:focus + .order-form__box--check,
-.order-form__input:focus + .order-form__box--radio {
+.order-form__input:hover + .order-form__box,
+.order-form__input:focus + .order-form__box {
   border: 2px solid $seafoam-blue-2;
 }
 
-.order-form__input:active + .order-form__box--check,
-.order-form__input:active + .order-form__box--radio {
-  border: 2px solid $greyish-brown;
-  opacity: 0.3;
+.order-form__input:active + .order-form__box {
+  border: 2px solid rgba(68, 68, 68, 0.3);
 }
 
-.order-form__input:disabled + .order-form__box--check,
-.order-form__input:disabled + .order-form__box--radio {
+.order-form__input:disabled + .order-form__box {
   box-shadow: 0 0 0 4px $grey;
 }
 
-.order-form__input:checked:disabled + .order-form__box--check,
-.order-form__input:checked:disabled + .order-form__box--radio {
+.order-form__input:checked:disabled + .order-form__box {
   box-shadow: 0 0 0 4px $grey;
 }
 
@@ -178,6 +172,10 @@
 
   color: $greyish-brown;
   opacity: 0.3;
+}
+
+input[type="tel"]::placeholder {
+  font-size: 19px;
 }
 
 .order-form__icon {
@@ -315,9 +313,13 @@
   }
 
   .order-form__sign {
-    width: 350px;
+    width: 250px;
     padding-left: 80px;
     font-size: 19px;
+  }
+
+  .order-form__sign--type {
+    width: 350px;
   }
 
   .order-form__sign-user {
@@ -340,20 +342,20 @@
   .order-form__input-user {
     margin-left: 25px;
     padding-top: 0;
+    padding-left: 17px;
   }
 
   .order-form__input-info {
-    padding: 15px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .order-form__input-user::placeholder {
-    padding-left: 17px;
     font-size: 19px;
   }
 
   .order-form__textarea {
     padding-top: 10px;
-    padding-left: 0;
   }
 
   .order-form__box {

@@ -9,11 +9,12 @@
   min-width: 320px;
   margin: 0;
   padding-left: 0;
+
   /*display: none;*/
 }
 
 .main-nav__logo {
-  padding: 20px 115px;
+  padding: 17px 115px;
 }
 
 .main-nav__logo[href]:hover,
@@ -54,16 +55,16 @@
   .main-nav__service {
     position: absolute;
     top: 90px;
-    right: 45px;
+    right: 50px;
     z-index: 3;
 
     display: block;
   }
 
   .main-nav__logo {
-    flex-basis: 50%;
+    flex-basis: 46%;
     padding: 0;
-    padding-left: 40px;
+    padding-left: 50px;
   }
 
   .main-nav__logo-image {

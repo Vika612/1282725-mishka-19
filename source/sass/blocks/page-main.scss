@@ -1,5 +1,6 @@
 .page-main {
   position: relative;
+  background-color: $grey-1;
 }
 
 .page-main__title {
@@ -18,11 +19,12 @@
 }
 
 .page-main__title-wrap {
+  z-index: 0;
+  margin-top: -15px;
   position: relative;
   height: 375px;
   padding: 0;
 
-  background-color: $grey-1;
   background-image: url("../img/hero-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -43,7 +45,7 @@
 
   .page-main__title {
     width: 500px;
-    margin-top: 70px;
+    margin-top: 65px;
     font-size: 43px;
   }
 }
