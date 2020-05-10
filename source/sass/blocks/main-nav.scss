@@ -55,7 +55,7 @@
   .main-nav__service {
     position: absolute;
     top: 90px;
-    right: 50px;
+    right: 55px;
     z-index: 3;
 
     display: block;
@@ -64,6 +64,7 @@
   .main-nav__logo {
     flex-basis: 46%;
     padding: 0;
+    padding-top: 10px;
     padding-left: 50px;
   }
 

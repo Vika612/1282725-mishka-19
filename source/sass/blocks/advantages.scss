@@ -38,8 +38,7 @@
 
 @media (min-width: 768px) {
   .advantages__wrapper {
-    margin-bottom: 80px;
-    padding-bottom: 25px;
+    padding-top: 25px;
   }
 
   .advantages__list {
@@ -49,10 +48,10 @@
 
   .advantages__item {
     flex-basis: 50%;
-    min-height: 127px;
+    min-height: 160px;
     margin-bottom: 0;
     padding-top: 15px;
-    padding-right: 37px;
+    padding-right: 43px;
 
     font-size: 20px;
     line-height: 1;

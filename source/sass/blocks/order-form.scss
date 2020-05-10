@@ -243,11 +243,15 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__wrapper--tel {
-    padding-top: 30px;
+    padding-top: 25px;
   }
 
   .order-form__wrapper--mail {
-    padding-bottom: 30px;
+    padding-bottom: 25px;
+  }
+
+  .order-form__wrapper--textarea {
+    padding-top: 5px;
   }
 
   .order-form__name::after {
@@ -368,7 +372,7 @@ input[type="tel"]::placeholder {
   .order-form__icon--tel,
   .order-form__icon--mail {
     top: 10px;
-    right: 13px;
+    right: 23px;
   }
 
   .order-form__wrap {
@@ -381,14 +385,15 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__note {
-    padding: 0 30px;
+    padding: 0 37px;
+
     font-size: 17px;
     line-height: 1.8;
   }
 
   .order-form__button {
     width: 230px;
-    margin-left: 30px;
+    margin-left: 35px;
   }
 }
 

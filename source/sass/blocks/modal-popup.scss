@@ -1,5 +1,6 @@
 .modal-popup {
-  width: 100%;
+  width: 320px;
+  margin: 0 auto;
   padding: 35px 30px;
 
   border: 1px solid $grey-2;
@@ -66,4 +67,29 @@
   border: none;
   color: $white;
   background-color: $seafoam-blue;
+}
+
+@media (min-width: 768px) {
+  .modal-popup {
+    width: 566px;
+    margin: 0 auto;
+    padding: 35px 105px;
+  }
+
+  .modal-popup__title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.9;
+  }
+
+  .modal-popup__info {
+    width: 100%;
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .modal-popup__sign {
+    padding: 20px 50px;
+  }
 }

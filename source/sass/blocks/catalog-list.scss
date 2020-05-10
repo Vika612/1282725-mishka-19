@@ -87,6 +87,7 @@
 
 @media (min-width: 768px) {
   .catalog-list__item {
+    margin-top: 20px;
     margin-bottom: 55px;
 
     display: flex;
@@ -123,7 +124,8 @@
 
   .catalog-list__description {
     width: 100%;
-    margin-top: -125px;
+    margin-top: -145px;
+
     font-size: 15px;
     line-height: 2;
   }
