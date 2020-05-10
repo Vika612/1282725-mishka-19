@@ -127,8 +127,8 @@
 @media (min-width: 1150px) {
   .process__wrapper {
     position: relative;
-    margin-top: -30px;
     margin-bottom: 100px;
+    padding-top: 10px;
     padding-bottom: 0;
 
     flex-wrap: wrap;
@@ -157,7 +157,7 @@
 
   .process__video {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 45px;
   }
 

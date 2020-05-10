@@ -103,16 +103,16 @@
 
 @media (min-width: 1150px) {
   .promo__wrapper {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 90px;
     padding-left: 170px;
   }
 
   .promo__description-wrap {
     flex-basis: 40%;
-    margin-top: 35px;
     margin-right: 30px;
-    padding-left: 50px;
+    padding-top: 53px;
+    padding-left: 53px;
   }
 
   .promo__image {
@@ -134,11 +134,19 @@
   }
 
   .promo__price-wrap {
-    margin-top: -130px;
-    margin-left: 50px;
+    margin-top: -135px;
+    margin-left: 55px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+  }
+
+  .promo__price {
+    padding-bottom: 36px;
+  }
+
+  .promo__button {
+    padding: 14px 100px;
   }
 }

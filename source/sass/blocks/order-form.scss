@@ -436,4 +436,9 @@ input[type="tel"]::placeholder {
   .order-form__wrap {
     padding: 10px 195px 0 195px;
   }
+
+  .order-form__icon--tel,
+  .order-form__icon--mail {
+    right: 7px;
+  }
 }
