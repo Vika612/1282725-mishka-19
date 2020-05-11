@@ -94,6 +94,18 @@
     justify-content: space-between;
   }
 
+  .catalog-list__name {
+    padding-bottom: 0;
+    padding-right: 40px;
+
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .catalog-list__name--toys {
+    padding-bottom: 12px;
+  }
+
   .catalog-list__image {
     width: 334px;
     height: 334px;
@@ -113,13 +125,9 @@
     border-top: 1px solid $white-2;
   }
 
-  .catalog-list__link {
-    padding-right: 40px;
-  }
-
-  .catalog-list__name {
-    font-size: 20px;
-    line-height: 1.2;
+  .catalog-list__wrap {
+    padding-bottom: 25px;
+    padding-right: 5px;
   }
 
   .catalog-list__description {
@@ -138,15 +146,17 @@
 
 @media (min-width: 1150px) {
   .catalog-list {
+    padding-top: 50px;
+
     display: flex;
     flex-wrap: wrap;
-    padding-top: 80px;
   }
 
   .catalog-list__item {
     width: 316px;
-    flex-direction: column;
     margin-right: 50px;
+
+    flex-direction: column;
   }
 
   .catalog-list__item:last-child {
@@ -167,7 +177,8 @@
   }
 
   .catalog-list__description {
-    margin: 0;
+    margin-top: -10px;
+    padding-bottom: 30px;
   }
 
   .catalog-list__wrap {

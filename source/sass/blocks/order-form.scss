@@ -11,12 +11,12 @@
 }
 
 .order-form__wrapper--mail {
-  padding-top: 10px;
+  padding-top: 13px;
 }
 
 .order-form__wrapper--textarea {
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 8px;
 }
 
 .order-form__name {
@@ -40,6 +40,10 @@
 
 .order-form__name--mail::after {
   width: 179px;
+}
+
+.order-form__name--add {
+  padding-bottom: 9px;
 }
 
 .order-form__set {
@@ -174,6 +178,10 @@
   opacity: 0.3;
 }
 
+.order-form__input-info {
+  padding-top: 10px;
+}
+
 input[type="tel"]::placeholder {
   font-size: 19px;
 }
@@ -214,7 +222,7 @@ input[type="tel"]::placeholder {
 
 .order-form__button {
   width: 260px;
-  margin-top: 30px;
+  margin-top: 28px;
   padding: 15px 0;
 }
 
@@ -247,11 +255,12 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__wrapper--mail {
+    padding-top: 5px;
     padding-bottom: 25px;
   }
 
   .order-form__wrapper--textarea {
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
   .order-form__name::after {
@@ -265,16 +274,15 @@ input[type="tel"]::placeholder {
 
   .order-form__name--color {
     padding-top: 47px;
-    padding-right: 120px;
+    padding-right: 125px;
   }
 
   .order-form__name--fullname {
     padding-top: 10px;
-    padding-right: 120px;
+    padding-right: 125px;
   }
 
   .order-form__name--tel {
-    padding-top: 0;
     padding-right: 110px;
   }
 
@@ -317,8 +325,9 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__sign {
-    width: 250px;
+    width: 240px;
     padding-left: 80px;
+
     font-size: 19px;
   }
 
@@ -376,7 +385,7 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__wrap {
-    padding: 10px 10px 0 15px;
+    padding: 15px 10px 0 15px;
 
     display: flex;
     flex-direction: row-reverse;
@@ -404,7 +413,7 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__wrapper--textarea {
-    padding-top: 0;
+    padding-top: 8px;
     padding-right: 225px;
   }
 
@@ -433,12 +442,12 @@ input[type="tel"]::placeholder {
     padding-right: 175px;
   }
 
-  .order-form__wrap {
-    padding: 10px 195px 0 195px;
-  }
-
   .order-form__icon--tel,
   .order-form__icon--mail {
     right: 7px;
+  }
+
+  .order-form__wrap {
+    padding: 13px 185px 0 190px;
   }
 }

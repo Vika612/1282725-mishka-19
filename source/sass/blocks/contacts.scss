@@ -2,12 +2,12 @@
   position: relative;
 
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 37px;
 }
 
 .contacts__title {
   margin: 0;
-  padding-top: 45px;
+  padding-top: 0;
   padding-bottom: 15px;
 
   font-family: "Open Sans", "Tahoma", sans-serif;
@@ -78,8 +78,8 @@
     position: relative;
 
     margin-bottom: 15px;
-    padding-top: 46px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 55px;
 
     display: flex;
     flex-wrap: wrap;
@@ -88,6 +88,7 @@
 
   .contacts__title {
     width: 100%;
+    padding-top: 7px;
     padding-bottom: 30px;
 
     display: flex;
@@ -107,7 +108,10 @@
     margin: 0;
 
     font-size: 17px;
-    line-height: 1.8;
+  }
+
+  .contacts__label {
+    padding-right: 25px;
   }
 
   .contacts__wrap-mail {
@@ -117,9 +121,15 @@
   .contacts__address {
     width: 260px;
     margin-top: 0;
+    line-height: 1.8;
+  }
+
+  .contacts__map {
+    margin-top: -13px;
   }
 
   .contacts__link-wrap {
+    padding-top: 10px;
     padding-bottom: 13px;
   }
 
@@ -135,7 +145,7 @@
   .contacts {
     max-width: 1150px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     padding: 30px 50px 50px;
 
     display: flex;
@@ -147,7 +157,7 @@
   }
 
   .contacts__block {
-    padding-top: 30px;
+    padding-top: 75px;
     padding-left: 170px;
 
     flex-direction: column;
@@ -155,6 +165,7 @@
 
   .contacts__map {
     flex-basis: 100%;
+    margin-top: 0;
   }
 
   .contacts__title {
@@ -167,12 +178,16 @@
 
   .contacts__title::after {
     position: absolute;
-    top: 63px;
+    top: 70px;
     left: 63px;
   }
 
+  .contacts__wrap {
+    padding-left: 5px;
+  }
+
   .contacts__wrap-address {
-    padding-top: 25px;
+    padding-top: 30px;
   }
 
   .contacts__link-wrap {
@@ -182,7 +197,7 @@
   .contacts__link {
     position: absolute;
     left: 225px;
-    bottom: 55px;
+    bottom: 45px;
 
     margin-top: 0;
   }

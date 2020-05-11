@@ -3,7 +3,11 @@
 }
 
 .promo__wrapper {
-  padding-bottom: 50px;
+  padding-bottom: 55px;
+  background-image: url("../img/bg-zigzag-line.svg");
+  background-repeat: repeat-x;
+  background-size: auto 6px;
+  background-position: 0 100%;
 }
 
 .promo__title-wrap {
@@ -48,6 +52,16 @@
     margin-top: 0;
   }
 
+  .promo__wrapper {
+    padding-bottom: 70px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    background-size: auto 15px;
+  }
+
   .promo__title-wrap {
     width: 100%;
     margin-bottom: 50px;
@@ -58,13 +72,6 @@
     left: 570px;
     text-align: center;
     line-height: 1;
-  }
-
-  .promo__wrapper {
-    padding-bottom: 70px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   .promo__description-wrap {
@@ -103,22 +110,13 @@
 
 @media (min-width: 1150px) {
   .promo__wrapper {
-    padding-top: 60px;
+    padding-top: 35px;
     padding-bottom: 90px;
     padding-left: 170px;
-  }
 
-  .promo__description-wrap {
-    flex-basis: 40%;
-    margin-right: 30px;
-    padding-top: 53px;
-    padding-left: 53px;
-  }
-
-  .promo__image {
-    width: 520px;
-    height: 636px;
-    margin-top: -100px;
+    background-repeat: no-repeat;
+    background-size: 1050px 23px;
+    background-position: 50% 100%;
   }
 
   .promo__title-wrap {
@@ -131,6 +129,19 @@
   .promo__title::after {
     top: 45px;
     left: -120px;
+  }
+
+  .promo__description-wrap {
+    flex-basis: 40%;
+    margin-right: 30px;
+    padding-top: 56px;
+    padding-left: 53px;
+  }
+
+  .promo__image {
+    width: 520px;
+    height: 636px;
+    margin-top: -100px;
   }
 
   .promo__price-wrap {

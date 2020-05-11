@@ -128,7 +128,7 @@
   .process__wrapper {
     position: relative;
     margin-bottom: 100px;
-    padding-top: 10px;
+    padding-top: 0;
     padding-bottom: 0;
 
     flex-wrap: wrap;
@@ -157,8 +157,8 @@
 
   .process__video {
     position: absolute;
-    top: 10px;
-    left: 45px;
+    top: 0;
+    left: 50px;
   }
 
   .process__image {
