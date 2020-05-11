@@ -176,9 +176,17 @@
     padding-right: 30px;
   }
 
+  .catalog-list__name {
+    padding-right: 0;
+  }
+
+  .catalog-list__name--toys {
+    padding-bottom: 15px;
+  }
+
   .catalog-list__description {
     margin-top: -10px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 
   .catalog-list__wrap {

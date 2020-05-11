@@ -146,7 +146,7 @@
     max-width: 1150px;
     margin: 0 auto;
     margin-bottom: 60px;
-    padding: 30px 50px 50px;
+    padding: 30px 50px 40px;
 
     display: flex;
     justify-content: center;
@@ -157,7 +157,7 @@
   }
 
   .contacts__block {
-    padding-top: 75px;
+    padding-top: 65px;
     padding-left: 170px;
 
     flex-direction: column;
@@ -178,16 +178,17 @@
 
   .contacts__title::after {
     position: absolute;
-    top: 70px;
-    left: 63px;
+    top: 65px;
+    left: 65px;
   }
 
   .contacts__wrap {
+    padding-top: 5px;
     padding-left: 5px;
   }
 
   .contacts__wrap-address {
-    padding-top: 30px;
+    padding-top: 35px;
   }
 
   .contacts__link-wrap {
@@ -196,7 +197,7 @@
 
   .contacts__link {
     position: absolute;
-    left: 225px;
+    left: 228px;
     bottom: 45px;
 
     margin-top: 0;
