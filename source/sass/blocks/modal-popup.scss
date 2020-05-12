@@ -1,5 +1,6 @@
 .modal-popup {
-  width: 100%;
+  width: 320px;
+  margin: 0 auto;
   padding: 35px 30px;
 
   border: 1px solid $grey-2;
@@ -13,6 +14,7 @@
   font-size: 25px;
   font-weight: bold;
   line-height: 1.2;
+  text-align: center;
   text-transform: uppercase;
 
   color: $black;
@@ -25,19 +27,22 @@
 
   font-size: 15px;
   line-height: 2;
+  text-align: center;
 
   color: $greyish-brown;
 }
 
 .modal-popup__wrapper {
+  margin-top: 20px;
   margin-bottom: 30px;
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .modal-popup__sign {
-  padding: 20px 50px;
+  padding: 17px 33px;
 
   font-size: 17px;
   line-height: 1;
@@ -49,8 +54,42 @@
   border: 2px solid rgba(68, 68, 68, 0.1);
 }
 
+.modal-popup__sign:hover,
+.modal-popup__sign:focus {
+  border: 2px solid rgba(68, 68, 68, 0.3);
+}
+
+.modal-popup__sign:active {
+  border: 2px solid $seafoam-blue-2;
+}
+
 .modal-popup__button {
   border: none;
   color: $white;
   background-color: $seafoam-blue;
+}
+
+@media (min-width: 768px) {
+  .modal-popup {
+    width: 566px;
+    margin: 0 auto;
+    padding: 35px 105px;
+  }
+
+  .modal-popup__title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.9;
+  }
+
+  .modal-popup__info {
+    width: 100%;
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .modal-popup__sign {
+    padding: 20px 50px;
+  }
 }

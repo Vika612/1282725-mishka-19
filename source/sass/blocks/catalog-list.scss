@@ -1,10 +1,13 @@
 .catalog-list {
   margin: 0;
   padding: 0;
+  padding-top: 10px;
 }
 
 .catalog-list__desc {
+  margin-bottom: 38px;
   padding: 0 30px;
+
   border: 1px solid $white-2;
 }
 
@@ -18,7 +21,7 @@
 }
 
 .catalog-list__image {
-  margin-top: 30px;
+  margin-top: 25px;
   display: block;
 }
 
@@ -50,7 +53,7 @@
   display: flex;
   justify-content: space-between;
 
-  padding: 30px 0;
+  padding: 20px 0;
 
   border-top: 1px solid $white-2;
 }
@@ -84,10 +87,23 @@
 
 @media (min-width: 768px) {
   .catalog-list__item {
+    margin-top: 20px;
     margin-bottom: 55px;
 
     display: flex;
     justify-content: space-between;
+  }
+
+  .catalog-list__name {
+    padding-bottom: 0;
+    padding-right: 40px;
+
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .catalog-list__name--toys {
+    padding-bottom: 12px;
   }
 
   .catalog-list__image {
@@ -107,21 +123,17 @@
     align-items: flex-start;
 
     border-top: 1px solid $white-2;
-    border-left: none;
   }
 
-  .catalog-list__link {
-    padding-right: 40px;
-  }
-
-  .catalog-list__name {
-    font-size: 20px;
-    line-height: 1.2;
+  .catalog-list__wrap {
+    padding-bottom: 25px;
+    padding-right: 5px;
   }
 
   .catalog-list__description {
     width: 100%;
-    margin-top: -125px;
+    margin-top: -145px;
+
     font-size: 15px;
     line-height: 2;
   }
@@ -134,15 +146,17 @@
 
 @media (min-width: 1150px) {
   .catalog-list {
+    padding-top: 50px;
+
     display: flex;
     flex-wrap: wrap;
-    padding-top: 70px;
   }
 
   .catalog-list__item {
     width: 316px;
-    flex-direction: column;
     margin-right: 50px;
+
+    flex-direction: column;
   }
 
   .catalog-list__item:last-child {
@@ -162,8 +176,17 @@
     padding-right: 30px;
   }
 
+  .catalog-list__name {
+    padding-right: 0;
+  }
+
+  .catalog-list__name--toys {
+    padding-bottom: 15px;
+  }
+
   .catalog-list__description {
-    margin-top: 0;
+    margin-top: -10px;
+    padding-bottom: 20px;
   }
 
   .catalog-list__wrap {

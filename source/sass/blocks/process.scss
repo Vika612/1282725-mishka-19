@@ -1,15 +1,15 @@
 .process {
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 30px;
+  /*width: 100%;*/
+  /*margin: 0 auto;*/
   margin-bottom: 60px;
 }
 
 .process__title {
   margin: 0;
-  padding: 20px 43px 25px 35px;
+  padding: 25px 43px 25px 35px;
 
   display: flex;
+  align-items: flex-end;
 
   border: 1px solid $white-2;
 }
@@ -27,7 +27,7 @@
 .process__button {
   position: absolute;
   top: 35px;
-  left: 80px;
+  left: 75px;
 
   background-color: transparent;
   border: none;
@@ -47,7 +47,7 @@
 }
 
 .process__wrap {
-  padding: 25px 35px 30px;
+  padding: 30px 35px;
 
   border: 1px solid $white-2;
 }
@@ -127,8 +127,8 @@
 @media (min-width: 1150px) {
   .process__wrapper {
     position: relative;
-    margin-top: -30px;
     margin-bottom: 100px;
+    padding-top: 5px;
     padding-bottom: 0;
 
     flex-wrap: wrap;
@@ -157,8 +157,8 @@
 
   .process__video {
     position: absolute;
-    top: 0;
-    left: 45px;
+    top: 5px;
+    left: 50px;
   }
 
   .process__image {
@@ -170,6 +170,7 @@
     padding-top: 5px;
     padding-bottom: 60px;
     padding-left: 80px;
+    border-left: none;
   }
 
   .process__description {

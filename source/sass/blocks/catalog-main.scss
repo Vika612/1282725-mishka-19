@@ -85,6 +85,7 @@
 
 @media (min-width: 768px) {
   .catalog-main {
+    position: relative;
     display: flex;
     justify-content: center;
   }
@@ -106,5 +107,10 @@
 @media (min-width: 1150px) {
   .catalog-main__link {
     width: 525px;
+    padding-left: 37px;
+  }
+
+  .catalog-main__link:hover {
+    padding-left: 37px;
   }
 }

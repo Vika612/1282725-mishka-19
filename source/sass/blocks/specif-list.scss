@@ -6,9 +6,13 @@
   padding: 7px 30px 7px 0;
   border-bottom: 1px solid $white-2;
 }
-/*
+
 @media (min-width: 768px) {
   .specif-list__item td {
-    padding: 7px 45px 7px 0;
+    padding-top: 10px;
   }
-}*/
+
+  .specif-list {
+    margin-top: 10px;
+  }
+}

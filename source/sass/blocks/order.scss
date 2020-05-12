@@ -4,13 +4,13 @@
 }
 
 .order__description {
-  padding: 0 30px 10px;
+  padding: 15px 30px 10px;
   line-height: 1.8;
 }
 
 @media (min-width: 768px) {
   .order__description {
-    padding: 20px 50px 40px;
+    padding: 17px 52px 37px;
 
     font-size: 17px;
   }
@@ -18,8 +18,8 @@
 
 @media (min-width: 1150px) {
   .order__description {
-    padding-top: 90px;
-    padding-bottom: 37px;
+    padding-top: 55px;
+    padding-bottom: 40px;
     padding-left: 225px;
     padding-right: 200px;
   }
