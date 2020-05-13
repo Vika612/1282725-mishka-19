@@ -102,10 +102,6 @@
     line-height: 1.2;
   }
 
-  .catalog-list__name--toys {
-    padding-bottom: 12px;
-  }
-
   .catalog-list__image {
     width: 334px;
     height: 334px;
@@ -154,9 +150,10 @@
 
   .catalog-list__item {
     width: 316px;
+    margin-bottom: 0;
     margin-right: 50px;
 
-    flex-direction: column;
+    display: block;
   }
 
   .catalog-list__item:last-child {
@@ -177,19 +174,21 @@
   }
 
   .catalog-list__name {
+    padding-bottom: 10px;
     padding-right: 0;
   }
 
-  .catalog-list__name--toys {
-    padding-bottom: 15px;
-  }
-
   .catalog-list__description {
-    margin-top: -10px;
+    margin-top: 0;
     padding-bottom: 20px;
   }
 
   .catalog-list__wrap {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+
+  .catalog-list__wrap--toys {
     padding-top: 15px;
   }
 }
