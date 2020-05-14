@@ -35,14 +35,15 @@
 .modal-popup__wrapper {
   margin-top: 20px;
   margin-bottom: 30px;
+  padding: 15px 0;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.modal-popup__sign {
-  padding: 17px 33px;
+.modal-popup__size {
+  padding: 15px 33px;
 
   font-size: 17px;
   line-height: 1;
@@ -54,12 +55,12 @@
   border: 2px solid rgba(68, 68, 68, 0.1);
 }
 
-.modal-popup__sign:hover,
-.modal-popup__sign:focus {
+.modal-popup__size:hover,
+.modal-popup__size:focus {
   border: 2px solid rgba(68, 68, 68, 0.3);
 }
 
-.modal-popup__sign:active {
+.modal-popup__input:checked + .modal-popup__size {
   border: 2px solid $seafoam-blue-2;
 }
 
@@ -89,7 +90,7 @@
     line-height: 1.8;
   }
 
-  .modal-popup__sign {
-    padding: 20px 50px;
+  .modal-popup__size {
+    padding: 15px 50px;
   }
 }

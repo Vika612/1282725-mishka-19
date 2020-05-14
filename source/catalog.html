@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="page-header feedback">
-      <nav class="main-nav main-nav--closed main-nave--nojs">
+      <nav class="main-nav main-nav--opened main-nave--nojs">
         <a class="main-nav__logo" href="index.html">
           <picture>
             <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg">
@@ -245,19 +245,23 @@
       <p class="modal-popup__info">Выберите размер:</p>
       <form class="modal-popup__form" action="http://echo.htmlacademy.ru" method="post">
         <div class="modal-popup__wrapper">
-          <label class="modal-popup__sign">
-            <input class="modal-popup__input visually-hidden" type="radio" name="size" checked>S
+          <label>
+            <input class="modal-popup__input visually-hidden" type="radio" name="size" value="S" checked>
+            <span class="modal-popup__size">S</span>
           </label>
-          <label class="modal-popup__sign">
-            <input class="modal-popup__input visually-hidden" type="radio" name="size">M
+          <label>
+            <input class="modal-popup__input visually-hidden" type="radio" name="size" value="M">
+            <span class="modal-popup__size">M</span>
           </label>
-          <label class="modal-popup__sign">
-            <input class="modal-popup__input visually-hidden" type="radio" name="size">L
+          <label>
+            <input class="modal-popup__input visually-hidden" type="radio" name="size" value="L">
+            <span class="modal-popup__size">L</span>
           </label>
         </div>
         <button class="modal-popup__button button" type="submit">Добавить</button>
       </form>
     </section>
+
 
     <script src="js/picturefill.min.js"></script>
     <script src="js/main-nav.js"></script>
