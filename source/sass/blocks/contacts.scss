@@ -2,15 +2,21 @@
   position: relative;
 
   width: 100%;
-  margin-bottom: 37px;
+  margin-bottom: 39px;
+
+  background-image: url("../img/bg-zigzag-line.svg");
+  background-repeat: no-repeat;
+  background-size: auto 6px;
+  background-position: 50% 0;
+}
+
+.contacts__wrapper {
+  padding-top: 20px;
 }
 
 .contacts__title {
-  margin: 0;
-  padding-top: 0;
   padding-bottom: 15px;
 
-  font-family: "Open Sans", "Tahoma", sans-serif;
   font-size: 18px;
   font-weight: bold;
 
@@ -74,12 +80,19 @@
 }
 
 @media (min-width: 768px) {
+  .contacts {
+    background-repeat: repeat-x;
+    background-size: auto 15px;
+  }
+
+  .contacts__wrapper {
+    padding-top: 10px;
+  }
+
   .contacts__block {
     position: relative;
 
-    margin-bottom: 15px;
-    padding-top: 10px;
-    padding-bottom: 55px;
+    padding-bottom: 65px;
 
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +102,7 @@
   .contacts__title {
     width: 100%;
     padding-top: 7px;
-    padding-bottom: 30px;
+    padding-bottom: 0;
 
     display: flex;
     justify-content: space-between;
@@ -105,7 +118,7 @@
   }
 
   .contacts__wrap {
-    margin: 0;
+    margin-bottom: 0;
 
     font-size: 17px;
   }
@@ -116,11 +129,12 @@
 
   .contacts__wrap-mail {
     height: 30px;
+    margin-top: 0;
   }
 
   .contacts__address {
     width: 260px;
-    margin-top: 0;
+
     line-height: 1.8;
   }
 
@@ -145,11 +159,15 @@
   .contacts {
     max-width: 1150px;
     margin: 0 auto;
-    margin-bottom: 60px;
-    padding: 30px 50px 40px;
+    margin-bottom: 100px;
+    padding: 95px 50px 0;
 
     display: flex;
     justify-content: center;
+
+    background-repeat: no-repeat;
+    background-size: 1050px 23px;
+    background-position: 50% 0;
   }
 
   .contacts__wrapper {
@@ -157,7 +175,7 @@
   }
 
   .contacts__block {
-    padding-top: 65px;
+    padding-top: 20px;
     padding-left: 170px;
 
     flex-direction: column;
@@ -198,7 +216,7 @@
   .contacts__link {
     position: absolute;
     left: 228px;
-    bottom: 45px;
+    bottom: 0;
 
     margin-top: 0;
   }

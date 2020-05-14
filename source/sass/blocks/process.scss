@@ -126,7 +126,7 @@
   .process__wrapper {
     position: relative;
     margin-top: 50px;
-    margin-bottom: 100px;
+    padding-bottom: 40px;
 
     align-items: flex-end;
 
@@ -135,9 +135,7 @@
 
   .process__title {
     max-width: 370px;
-    padding-top: 40px;
-    padding-left: 80px;
-    padding-right: 70px;
+    padding: 35px 70px 30px 80px;
 
     flex-direction: column;
     align-items: flex-start;
@@ -151,7 +149,7 @@
 
   .process__video {
     position: absolute;
-    top: 5px;
+    top: 0;
     left: 50px;
   }
 
@@ -161,9 +159,9 @@
 
   .process__wrap {
     max-width: 370px;
-    padding-top: 5px;
-    padding-bottom: 60px;
+    padding-bottom: 64px;
     padding-left: 80px;
+
     border-left: none;
   }
 
