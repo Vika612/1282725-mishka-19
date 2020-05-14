@@ -211,7 +211,6 @@ input[type="tel"]::placeholder {
 }
 
 .order-form__note {
-  font-family: "Open Sans", "Tahoma", sans-serif;
   font-size: 14px;
   font-weight: normal;
 
@@ -237,10 +236,7 @@ input[type="tel"]::placeholder {
     background-color: $white-1;
   }
 
-  .order-form__field--tel {
-    margin-bottom: 0;
-  }
-
+  .order-form__field--tel,
   .order-form__field--textarea {
     margin-bottom: 0;
   }
@@ -267,19 +263,21 @@ input[type="tel"]::placeholder {
     display: none;
   }
 
+
+  .order-form__name {
+    padding-right: 128px;
+  }
+
   .order-form__name--type {
     padding-top: 18px;
-    padding-right: 130px;
   }
 
   .order-form__name--color {
     padding-top: 47px;
-    padding-right: 125px;
   }
 
   .order-form__name--fullname {
     padding-top: 10px;
-    padding-right: 125px;
   }
 
   .order-form__name--tel {
@@ -413,25 +411,12 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__wrapper--textarea {
-    padding-top: 8px;
     padding-right: 225px;
   }
 
   .order-form__name {
     padding-left: 65px;
     padding-right: 70px;
-  }
-
-  .order-form__name--tel {
-    padding-right: 50px;
-  }
-
-  .order-form__name--mail {
-    padding-right: 25px;
-  }
-
-  .order-form__name--add {
-    padding-right: 44px;
   }
 
   .order-form__set--color {

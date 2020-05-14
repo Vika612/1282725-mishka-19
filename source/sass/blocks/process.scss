@@ -1,6 +1,4 @@
 .process {
-  /*width: 100%;*/
-  /*margin: 0 auto;*/
   margin-bottom: 60px;
 }
 
@@ -127,13 +125,9 @@
 @media (min-width: 1150px) {
   .process__wrapper {
     position: relative;
+    margin-top: 50px;
     margin-bottom: 100px;
-    padding-top: 5px;
-    padding-bottom: 0;
 
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-end;
 
     border-left: none;
