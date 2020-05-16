@@ -5,6 +5,12 @@
 
   border: 1px solid $grey-2;
   box-shadow: 0 5px 10px 0 rgba(0, 1, 1, 0.25);
+
+  display: none;
+}
+
+.modal-show {
+  display: block;
 }
 
 .modal-popup__title {
