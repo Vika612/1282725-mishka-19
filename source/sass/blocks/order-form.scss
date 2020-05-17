@@ -42,10 +42,6 @@
   width: 179px;
 }
 
-.order-form__name--add {
-  padding-bottom: 9px;
-}
-
 .order-form__set {
   position: relative;
 
@@ -265,7 +261,10 @@ input[type="tel"]::placeholder {
 
 
   .order-form__name {
-    padding-right: 128px;
+    min-width: 170px;
+
+    display: flex;
+    flex-direction: column;
   }
 
   .order-form__name--type {
@@ -274,22 +273,6 @@ input[type="tel"]::placeholder {
 
   .order-form__name--color {
     padding-top: 47px;
-  }
-
-  .order-form__name--fullname {
-    padding-top: 10px;
-  }
-
-  .order-form__name--tel {
-    padding-right: 110px;
-  }
-
-  .order-form__name--mail {
-    padding-right: 80px;
-  }
-
-  .order-form__name--add {
-    padding-right: 100px;
   }
 
   .order-form__set--color {
@@ -357,6 +340,7 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__input-info {
+    margin-left: 0;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -415,8 +399,7 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__name {
-    padding-left: 65px;
-    padding-right: 70px;
+    align-items: center;
   }
 
   .order-form__set--color {
