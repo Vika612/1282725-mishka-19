@@ -62,7 +62,19 @@
   line-height: 2;
 }
 
+.contacts__map {
+  position: relative;
+}
+
+.contacts__map img {
+  z-index: 0;
+  width: 100%;
+  height: 457px;
+}
+
 .contacts__iframe {
+  position: absolute;
+  z-index: 6;
   width: 100%;
 }
 
