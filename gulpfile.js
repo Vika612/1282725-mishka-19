@@ -107,5 +107,4 @@ gulp.task("refresh", function (done) {
   done();
 })
 
-gulp.task("build", gulp.series("css", "sprite", "html"));
 gulp.task("start", gulp.series("build", "server"));
