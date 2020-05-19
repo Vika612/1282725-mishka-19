@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
+    <div style="display: none;">
+      <include src="build/img/sprite.svg"></include>
+    </div>
+
     <header class="page-header feedback">
       <nav class="main-nav main-nav--opened main-nave--nojs">
         <a class="main-nav__logo" href="index.html">
@@ -32,7 +36,7 @@
           <li class="user-list__item user-list__item--search">
             <a class="user-list__link title-inner" href="#">
               <svg class="user-list__link-icon user-list__link-icon--search" width="18px" height="18px" role="img" aria-label="Поиск по сайту" focusable="false">
-                <use xlink:href="img/sprite.svg#search"></use>
+                <use xlink:href="#icon-search"></use>
               </svg>
               <span class="user-list__link--note">Поиск по сайту</span>
             </a>
@@ -40,7 +44,7 @@
           <li class="user-list__item user-list__item--cart">
             <a class="user-list__link title-inner" href="#">
               <svg class="user-list__link-icon user-list__link-icon--cart" width="21px" height="18px">
-                <use xlink:href="img/sprite.svg#cart"></use>
+                <use xlink:href="#icon-cart"></use>
               </svg>
               <span>Корзина: пока пуста</span>
             </a>
@@ -187,7 +191,7 @@
 
                   <label class="order-form__icon order-form__sign-user">
                     <svg class="order-form__icon--tel" width="24.829px" height="24.333px">
-                      <use xlink:href="img/sprite.svg#phone"></use>
+                      <use xlink:href="#icon-phone"></use>
                     </svg>
                     <input class="order-form__input-user order-form__input-info" type="tel" name="tel" placeholder="+7 ХХХ ХХХ ХХ ХХ*" required="">
                   </label>
@@ -199,7 +203,7 @@
                 <h3 class="order-form__name">E&#8209;mail</h3>
                   <label class="order-form__icon order-form__sign-user">
                     <svg class="order-form__icon--mail" width="32px" height="32px">
-                      <use xlink:href="img/sprite.svg#e_mail"></use>
+                      <use xlink:href="#icon-mail"></use>
                     </svg>
                     <input class="order-form__input-user order-form__input-info" type="email" name="mail" placeholder="Ваш Email*" required="">
                   </label>
@@ -226,7 +230,7 @@
       <div class="wrapper page-footer__wrapper">
         <a class="page-footer__logo" href="index.html" aria-label="Логотип-ссылка на главную страницу интернет-магазина">
           <svg id="logo-color" width="101.615px" height="34.056px">
-            <use xlink:href="img/sprite.svg#logo-color"></use>
+            <use xlink:href="#logo-footer"></use>
           </svg>
         </a>
         <div class="page-footer__social social">
@@ -234,21 +238,21 @@
             <li class="social__item">
               <a class="social__link social__link--instagram" href="#" aria-label="Instagram">
                 <svg width="21.769px" height="21.334px">
-                  <use xlink:href="img/sprite.svg#insta"></use>
+                  <use xlink:href="#icon-insta"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
               <a class="social__link social__link--facebook" href="#" aria-label="Facebook">
                 <svg width="14.962px" height="27.718px">
-                  <use xlink:href="img/sprite.svg#fb"></use>
+                  <use xlink:href="#icon-fb"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
               <a class="social__link social__link--twitter" href="#" aria-label="Twitter">
                 <svg width="23.494px" height="20.168px">
-                  <use xlink:href="img/sprite.svg#twit"></use>
+                  <use xlink:href="#icon-twitter"></use>
                 </svg>
               </a>
             </li>
@@ -258,7 +262,7 @@
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <span class="copyright__link--text">Разработано</span>
             <svg class="copyright__link--img" aria-label="HTML и CSS, уровень 2" width="26.943px" height="34.09px">
-              <use xlink:href="img/sprite.svg#html-academy"></use>
+              <use xlink:href="#logo-htmlacademy"></use>
             </svg>
           </a>
         </div>
