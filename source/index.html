@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
     <title>HTML Academy: Мишка</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
+    <div style="display: none;">
+      <include src="build/img/sprite.svg"></include>
+    </div>
 
     <header class="page-header feedback">
       <nav class="main-nav main-nav--opened main-nave--nojs">
@@ -33,7 +36,7 @@
           <li class="user-list__item user-list__item--search">
             <a class="user-list__link title-inner" href="#">
               <svg class="user-list__link-icon user-list__link-icon--search" width="18px" height="18px" role="img" aria-label="Поиск по сайту" focusable="false">
-                <use xlink:href="img/sprite.svg#search"></use>
+                <use xlink:href="#icon-search"></use>
               </svg>
               <span class="user-list__link--note">Поиск по сайту</span>
             </a>
@@ -41,7 +44,7 @@
           <li class="user-list__item user-list__item--cart">
             <a class="user-list__link title-inner" href="#">
               <svg class="user-list__link-icon user-list__link-icon--cart" width="21px" height="18px">
-                <use xlink:href="img/sprite.svg#cart"></use>
+                <use xlink:href="#icon-cart"></use>
               </svg>
               <span>Корзина: пока пуста</span>
             </a>
@@ -129,37 +132,37 @@
             <ul class="advantages__list">
               <li class="advantages__item advantages__item--ecology">
                 <svg width="31.972px" height="37.301px">
-                  <use xlink:href="img/sprite.svg#ecology"></use>
+                  <use xlink:href="#icon-feature-flower"></use>
                 </svg>
                 <p>Экологически<br> чистые материалы</p>
               </li>
               <li class="advantages__item advantages__item--style">
                 <svg width="46.575px" height="27.332px">
-                  <use xlink:href="img/sprite.svg#style"></use>
+                  <use xlink:href="#icon-feature-money"></use>
                 </svg>
                 <p>Скандинавский стиль по российской цене</p>
               </li>
               <li class="advantages__item advantages__item--like">
                 <svg width="33.05px" height="27.857px">
-                  <use xlink:href="img/sprite.svg#like"></use>
+                  <use xlink:href="#icon-feature-heart"></use>
                 </svg>
                 <p>Увеличивает лайки на фотографиях</p>
               </li>
               <li class="advantages__item advantages__item--love">
                 <svg width="34.373px" height="34.373px">
-                  <use xlink:href="img/sprite.svg#love"></use>
+                  <use xlink:href="#icon-feature-ball"></use>
                 </svg>
                 <p>Связано вручную с любовью и умилением</p>
               </li>
               <li class="advantages__item advantages__item--support">
                 <svg width="54.156px" height="23.183px">
-                  <use xlink:href="img/sprite.svg#support"></use>
+                  <use xlink:href="#icon-feature-rocket"></use>
                 </svg>
                 <p>Поддержка отечественного производителя</p>
               </li>
               <li class="advantages__item advantages__item--gift">
                 <svg width="32.666px" height="32.486px">
-                  <use xlink:href="img/sprite.svg#gift"></use>
+                  <use xlink:href="#icon-feature-gift"></use>
                 </svg>
                 <p>Поставляется в подарочной упаковке</p>
               </li>
@@ -204,7 +207,7 @@
         </div>
 
           <div class="contacts__map">
-            <iframe class="contacts__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003165!2d30.32085871617607!3d59.938719169054075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2sBolshaya%20Konyushennaya%20St%2C%2019%2F8%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sit!2sit!4v1587322655043!5m2!1sit!2sit"  height="457" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe class="contacts__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003165!2d30.32085871617607!3d59.938719169054075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2sBolshaya%20Konyushennaya%20St%2C%2019%2F8%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sit!2sit!4v1587322655043!5m2!1sit!2sit" height="457" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <picture>
               <source type="image/webp" media="(min-width: 1150px)" srcset="img/map-desktop@1x.webp 1x, img/map-desktop@2x.webp 2x">
               <source type="image/webp" media="(min-width: 768px)" srcset="img/map-tablet@1x.webp 1x, img/map-tablet@2x.webp 2x">
@@ -226,7 +229,7 @@
       <div class="page-footer__wrapper wrapper">
         <a class="page-footer__logo">
           <svg id="logo-color" width="101.615px" height="34.056px">
-            <use xlink:href="img/sprite.svg#logo-color"></use>
+            <use xlink:href="#logo-footer"></use>
           </svg>
         </a>
 
@@ -234,22 +237,22 @@
           <ul class="social__list">
             <li class="social__item">
               <a class="social__link social__link--instagram" href="#" aria-label="Instagram">
-                <svg  width="21.769px" height="21.334px">
-                  <use xlink:href="img/sprite.svg#insta"></use>
+                <svg width="21.769px" height="21.334px">
+                  <use xlink:href="#icon-insta"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
               <a class="social__link social__link--facebook" href="#" aria-label="Facebook">
                 <svg width="14.962px" height="27.718px">
-                  <use xlink:href="img/sprite.svg#fb"></use>
+                  <use xlink:href="#icon-fb"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
               <a class="social__link social__link--twitter" href="#" aria-label="Twitter">
                 <svg width="23.494px" height="20.168px">
-                  <use xlink:href="img/sprite.svg#twit"></use>
+                  <use xlink:href="#icon-twitter"></use>
                 </svg>
               </a>
             </li>
@@ -259,7 +262,7 @@
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <span class="copyright__link--text">Разработано</span>
             <svg class="copyright__link--img" aria-label="HTML и CSS, уровень 2" width="26.943px" height="34.09px">
-              <use xlink:href="img/sprite.svg#html-academy"></use>
+              <use xlink:href="#logo-htmlacademy"></use>
             </svg>
           </a>
         </div>
@@ -274,7 +277,7 @@
       <form class="modal-popup__form" action="http://echo.htmlacademy.ru" method="post">
         <div class="modal-popup__wrapper">
           <label>
-            <input class="modal-popup__input visually-hidden" type="radio" name="size" value="S" checked>
+            <input class="modal-popup__input visually-hidden" type="radio" name="size" value="S" checked="">
             <span class="modal-popup__size">S</span>
           </label>
           <label>
