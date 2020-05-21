@@ -15,7 +15,8 @@
     </div>
 
     <header class="page-header feedback">
-      <nav class="main-nav main-nav--closed main-nave--nojs">
+      <!-- при загрузке JS добавляется класс main-nav--js -->
+      <nav class="main-nav">
         <a class="main-nav__logo" href="index.html">
           <picture>
             <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg">
@@ -23,7 +24,8 @@
             <img class="main-nav__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип интернет-магазина 'Мишка'">
           </picture>
         </a>
-        <button class="main-nav__toggle" type="button" aria-label="открыть главное меню"></button>
+        <!-- при загрузке JS убирается класс main-nave__toggle--close / добавляется main-nave__toggle--open-->
+        <button class="main-nav__toggle main-nav__toggle--close" type="button" aria-label="открыть главное меню"></button>
 
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
