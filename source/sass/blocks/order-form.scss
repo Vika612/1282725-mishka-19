@@ -440,11 +440,15 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__set--color {
-    padding-right: 105px;
+    justify-content: flex-start;
   }
 
   .order-form__set--fullname {
     padding-right: 175px;
+  }
+
+  .order-form__item--color {
+    width: 265px;
   }
 
   .order-form__icon--tel,
