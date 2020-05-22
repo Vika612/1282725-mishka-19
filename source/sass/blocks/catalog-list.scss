@@ -146,18 +146,14 @@
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .catalog-list__item {
     width: 316px;
     margin-bottom: 0;
-    margin-right: 50px;
 
     display: block;
-  }
-
-  .catalog-list__item:last-child {
-    margin-right: 0;
   }
 
   .catalog-list__image {

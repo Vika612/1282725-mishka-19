@@ -124,9 +124,10 @@
 
 @media (min-width: 1150px) {
   .process__wrapper {
+    min-height: 455px;
     position: relative;
     margin-top: 25px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 
     align-items: flex-end;
 
@@ -135,7 +136,8 @@
 
   .process__title {
     max-width: 370px;
-    padding: 35px 70px 30px 80px;
+    height: 150px;
+    padding: 35px 70px 0 80px;
 
     flex-direction: column;
     align-items: flex-start;
@@ -159,7 +161,8 @@
 
   .process__wrap {
     max-width: 370px;
-    padding-bottom: 64px;
+    padding-top: 25px;
+    padding-bottom: 62px;
     padding-left: 80px;
 
     border-left: none;
