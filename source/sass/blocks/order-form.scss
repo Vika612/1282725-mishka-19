@@ -244,7 +244,7 @@ input[type="tel"]::placeholder {
 
   .order-form__field--fullname {
     margin-bottom: 0;
-    padding-bottom: 24px;
+    padding-bottom: 18px;
   }
 
   .order-form__field-user {
@@ -266,7 +266,7 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__wrapper--mail {
-    padding-top: 5px;
+    padding-top: 3px;
     padding-bottom: 25px;
   }
 
@@ -278,7 +278,6 @@ input[type="tel"]::placeholder {
   .order-form__name::after {
     display: none;
   }
-
 
   .order-form__name {
     min-width: 168px;
@@ -329,7 +328,7 @@ input[type="tel"]::placeholder {
   .order-form__item-user {
     margin: 0;
     padding: 0;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
   }
 
   .order-form__sign {
