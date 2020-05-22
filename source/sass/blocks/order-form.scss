@@ -55,11 +55,19 @@
 }
 
 .order-form__item:first-child {
-  margin-top: 25px;
+  margin-top: 23px;
 }
 
 .order-form__item--interior {
   margin-bottom: 0;
+}
+
+.order-form__item--color {
+  margin-bottom: 22px;
+}
+
+.order-form__item--color:last-child {
+  margin-bottom: 13px;
 }
 
 .order-form__item-user {
@@ -135,6 +143,7 @@
 .order-form__input:checked + .order-form__box--check {
   background-image: url("../img/icon-tick.svg");
   background-repeat: no-repeat;
+  background-size: 22px 16px;
   background-position: center;
 }
 
@@ -195,7 +204,8 @@ input[type="tel"]::placeholder {
 }
 
 .order-form__textarea {
-  height: 140px;
+  height: 143px;
+  margin-top: 6px;
   padding: 17px;
   border: 2px solid $greyish-brown;
   resize: none;
@@ -217,7 +227,7 @@ input[type="tel"]::placeholder {
 
 .order-form__button {
   width: 260px;
-  margin-top: 28px;
+  margin-top: 25px;
   padding: 15px 0;
 }
 
@@ -230,6 +240,15 @@ input[type="tel"]::placeholder {
   .order-form__field--color,
   .order-form__field-user {
     background-color: $white-1;
+  }
+
+  .order-form__field--fullname {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+  }
+
+  .order-form__field-user {
+    padding-top: 27px;
   }
 
   .order-form__field--tel,
@@ -252,7 +271,8 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__wrapper--textarea {
-    padding-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 5px;
   }
 
   .order-form__name::after {
@@ -261,7 +281,7 @@ input[type="tel"]::placeholder {
 
 
   .order-form__name {
-    min-width: 170px;
+    min-width: 168px;
 
     display: flex;
     flex-direction: column;
@@ -275,9 +295,13 @@ input[type="tel"]::placeholder {
     padding-top: 47px;
   }
 
+  .order-form__name--fullname {
+    padding-top: 5px;
+  }
+
   .order-form__set--color {
     padding-top: 30px;
-    padding-bottom: 25px;
+    padding-bottom: 24px;
 
     display: flex;
     flex-wrap: wrap;
@@ -291,8 +315,11 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__item--color {
-    width: 245px;
     padding-bottom: 25px;
+  }
+
+  .order-form__item--color:last-child {
+    margin-bottom: 22px;
   }
 
   .order-form__item--interior {
@@ -323,6 +350,10 @@ input[type="tel"]::placeholder {
 
     display: flex;
     align-items: flex-start;
+  }
+
+  .order-form__input:checked + .order-form__box--check {
+    background-size: 33px 22px;
   }
 
   .order-form__input:checked + .order-form__box--radio::after {
@@ -367,7 +398,7 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__wrap {
-    padding: 15px 10px 0 15px;
+    padding: 0 10px 0 15px;
 
     display: flex;
     flex-direction: row-reverse;
@@ -399,7 +430,13 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__name {
+    min-width: 174px;
     align-items: center;
+  }
+
+  .order-form__name--tel {
+    padding-left: 60px;
+    align-items: flex-start;
   }
 
   .order-form__set--color {
@@ -416,6 +453,6 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__wrap {
-    padding: 13px 185px 0 190px;
+    padding: 0 185px 0 190px;
   }
 }
