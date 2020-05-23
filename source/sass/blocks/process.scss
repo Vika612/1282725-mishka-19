@@ -145,6 +145,15 @@
     border-left: none;
   }
 
+  .process:hover .process__title,
+  .process:focus .process__title {
+    box-shadow: 0 -6px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .process:active .process__title {
+    box-shadow: 0 -3px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+
   .process__title::before {
     padding-bottom: 20px;
   }
