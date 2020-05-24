@@ -53,11 +53,13 @@
   }
 
   .promo__wrapper {
-    padding-bottom: 70px;
+    position: relative;
+    padding-bottom: 65px;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
 
     background-size: auto 15px;
   }
@@ -77,6 +79,11 @@
   .promo__description-wrap {
     flex-basis: 50%;
     padding-top: 0;
+    padding-bottom: 160px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .promo__description {
@@ -95,8 +102,10 @@
   }
 
   .promo__price-wrap {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
     width: 292px;
-    margin-top: -125px;
   }
 
   .promo__price {
@@ -105,7 +114,7 @@
   }
 
   .promo__button {
-    padding: 12px 100px;
+    padding: 13px 100px;
   }
 }
 
@@ -149,8 +158,8 @@
   }
 
   .promo__price-wrap {
-    margin-top: -140px;
-    margin-left: 55px;
+    bottom: 95px;
+    left: 230px;
 
     display: flex;
     flex-direction: column;
