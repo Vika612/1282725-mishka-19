@@ -150,14 +150,19 @@
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   .catalog-list__item {
     width: 316px;
     margin-bottom: 0;
+    margin-right: 50px;
 
     display: block;
+  }
+
+  .catalog-list__item:nth-child(3n) {
+    margin-right: 0;
   }
 
   .catalog-list__image {
