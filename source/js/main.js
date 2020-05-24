@@ -21,7 +21,7 @@ var overlay = document.querySelector(".overlay");
 for (var i = 0; i < cart.length; i++) {
   cart[i].addEventListener("click", function (evt) {
     evt.preventDefault();
-    popup.classList.add("modal-show");
+    popup.classList.add("modal-popup--show");
     overlay.classList.add("overlay--show")
   })
 };
@@ -29,14 +29,14 @@ for (var i = 0; i < cart.length; i++) {
 window.addEventListener("keydown", function (evt) {
   if (evt.keyCode === 27) {
     evt.preventDefault();
-    if (popup.classList.contains("modal-show")) {
-      popup.classList.remove("modal-show");
+    if (popup.classList.contains("modal-popup--show")) {
+      popup.classList.remove("modal-popup--show");
       overlay.classList.remove("overlay--show");
     }
   }
 });
 
 overlay.addEventListener("click", function () {
-  popup.classList.remove("modal-show");
+  popup.classList.remove("modal-popup--show");
   overlay.classList.remove("overlay--show");
 });

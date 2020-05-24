@@ -69,19 +69,19 @@
   border: none;
 }
 
-.catalog-list__button--cart {
+.catalog-list__icon-cart {
   cursor: pointer;
   fill: #231f20;
   opacity: 0.2;
 }
 
-.catalog-list__button--cart:hover,
-.catalog-list__button--cart:focus {
+.catalog-list__icon-cart:hover,
+.catalog-list__icon-cart:focus {
   fill: $seafoam-blue;
   opacity: 1;
 }
 
-.catalog-list__button--cart:active {
+.catalog-list__icon-cart:active {
   opacity: 0.3;
 }
 

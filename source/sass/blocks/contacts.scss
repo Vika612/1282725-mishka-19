@@ -25,29 +25,31 @@
   color: $black;
 }
 
-.contacts__wrap-mail {
+.contacts__wrap {
   display: flex;
+}
+
+.contacts__wrap--mail {
   margin-top: 15px;
   margin-bottom: 35px;
 }
 
-.contacts__mail--link {
+.contacts__mail {
   border-bottom: 1px solid $seafoam-blue;
 
   color: $greyish-brown;
 }
 
-.contacts__mail--link:hover,
-.contacts__mail--link:focus {
+.contacts__mail:hover,
+.contacts__mail:focus {
   color: $greeny-blue-1;
 }
 
-.contacts__mail--link:active {
+.contacts__mail:active {
   opacity: 0.3;
 }
 
-.contacts__wrap-address {
-  display: flex;
+.contacts__wrap--address {
   margin-bottom: 40px;
 }
 
@@ -139,7 +141,7 @@
     padding-right: 25px;
   }
 
-  .contacts__wrap-mail {
+  .contacts__wrap--mail {
     height: 30px;
     margin-top: 0;
   }
@@ -217,7 +219,7 @@
     padding-left: 5px;
   }
 
-  .contacts__wrap-address {
+  .contacts__wrap--address {
     padding-top: 35px;
   }
 

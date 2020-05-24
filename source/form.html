@@ -42,7 +42,7 @@
               <svg class="user-list__link-icon user-list__link-icon--search" width="18" height="18" role="img" aria-label="Поиск по сайту" focusable="false">
                 <use xlink:href="#icon-search"></use>
               </svg>
-              <span class="user-list__link--note">Поиск по сайту</span>
+              <span class="user-list__link-note">Поиск по сайту</span>
             </a>
           </li>
           <li class="user-list__item user-list__item--cart">
@@ -164,21 +164,21 @@
               <h3 class="order-form__name order-form__name--fullname">ФИО</h3>
               <ul class="order-form__set order-form__set--fullname">
 
-                <li class="order-form__item order-form__item-user">
+                <li class="order-form__item order-form__item-fullname">
                   <label class="order-form__sign order-form__sign-user title-inner">
                     Имя:
-                    <input class="order-form__input-user" type="text" name="first-name" placeholder="Введите ваше имя*" required="">
+                    <input class="order-form__input-user" type="text" name="first-name" placeholder="Введите ваше имя*" required>
                   </label>
                 </li>
 
-                <li class="order-form__item order-form__item-user">
+                <li class="order-form__item order-form__item-fullname">
                   <label class="order-form__sign order-form__sign-user title-inner">
                     Фамилия:
-                    <input class="order-form__input-user" type="text" name="last-name" placeholder="Укажите фамилию*" required="">
+                    <input class="order-form__input-user" type="text" name="last-name" placeholder="Укажите фамилию*" required>
                   </label>
                 </li>
 
-                <li class="order-form__item order-form__item-user">
+                <li class="order-form__item order-form__item-fullname">
                   <label class="order-form__sign order-form__sign-user title-inner">
                     Отчество:
                     <input class="order-form__input-user" type="text" name="patronymic" placeholder="Отчество, если желаете">
@@ -192,12 +192,11 @@
             <fieldset class="order-form__field  order-form__field--tel">
               <div class="order-form__wrapper order-form__wrapper--tel wrapper">
                 <h3 class="order-form__name order-form__name--tel">Тел</h3>
-
                   <label class="order-form__icon order-form__sign-user">
-                    <svg class="order-form__icon--tel" width="25" height="24">
+                    <svg class="order-form__icon-tel" width="25" height="24">
                       <use xlink:href="#icon-phone"></use>
                     </svg>
-                    <input class="order-form__input-user order-form__input-info" type="tel" name="tel" placeholder="+7 ХХХ ХХХ ХХ ХХ*" required="">
+                    <input class="order-form__input-user order-form__input-info" type="tel" name="tel" placeholder="+7 ХХХ ХХХ ХХ ХХ*" required>
                   </label>
                 </div>
             </fieldset>
@@ -206,10 +205,10 @@
               <div class="order-form__wrapper order-form__wrapper--mail wrapper">
                 <h3 class="order-form__name">E&#8209;mail</h3>
                   <label class="order-form__icon order-form__sign-user">
-                    <svg class="order-form__icon--mail" width="32" height="32">
+                    <svg class="order-form__icon-mail" width="32" height="32">
                       <use xlink:href="#icon-mail"></use>
                     </svg>
-                    <input class="order-form__input-user order-form__input-info" type="email" name="mail" placeholder="Ваш Email*" required="">
+                    <input class="order-form__input-user order-form__input-info" type="email" name="mail" placeholder="Ваш Email*" required>
                   </label>
                 </div>
             </fieldset>
@@ -231,9 +230,9 @@
     </main>
 
     <footer class="page-footer feedback">
-      <div class="wrapper page-footer__wrapper">
+      <div class="page-footer__wrapper wrapper">
         <a class="page-footer__logo" href="index.html" aria-label="Логотип-ссылка на главную страницу интернет-магазина">
-          <svg id="logo-color" width="101" height="34">
+          <svg width="101" height="34">
             <use xlink:href="#logo-footer"></use>
           </svg>
         </a>

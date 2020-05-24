@@ -70,7 +70,7 @@
   margin-bottom: 13px;
 }
 
-.order-form__item-user {
+.order-form__item-fullname {
   padding: 5px 0 0;
 }
 
@@ -195,8 +195,8 @@ input[type="tel"]::placeholder {
   position: relative;
 }
 
-.order-form__icon--tel,
-.order-form__icon--mail {
+.order-form__icon-tel,
+.order-form__icon-mail {
   position: absolute;
   bottom: 0;
   right: 5px;
@@ -325,7 +325,7 @@ input[type="tel"]::placeholder {
     margin-bottom: 30px;
   }
 
-  .order-form__item-user {
+  .order-form__item-fullname {
     margin: 0;
     padding: 0;
     padding-bottom: 15px;
@@ -390,8 +390,8 @@ input[type="tel"]::placeholder {
     margin-left: -80px;
   }
 
-  .order-form__icon--tel,
-  .order-form__icon--mail {
+  .order-form__icon-tel,
+  .order-form__icon-mail {
     top: 10px;
     right: 23px;
   }
@@ -450,8 +450,8 @@ input[type="tel"]::placeholder {
     width: 265px;
   }
 
-  .order-form__icon--tel,
-  .order-form__icon--mail {
+  .order-form__icon-tel,
+  .order-form__icon-mail {
     right: 7px;
   }
 

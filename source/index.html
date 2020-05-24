@@ -41,7 +41,7 @@
               <svg class="user-list__link-icon user-list__link-icon--search" width="18" height="18" role="img" aria-label="Поиск по сайту" focusable="false">
                 <use xlink:href="#icon-search"></use>
               </svg>
-              <span class="user-list__link--note">Поиск по сайту</span>
+              <span class="user-list__link-note">Поиск по сайту</span>
             </a>
           </li>
           <li class="user-list__item user-list__item--cart">
@@ -71,6 +71,7 @@
         <div class="page-main__title-wrap wrapper">
           <h1 class="page-main__title">Милые штуки ручной<br> работы для дома</h1>
           <h2 class="visually-hidden">Каталог товаров</h2>
+
           <ul class="catalog-main">
             <li class="catalog-main__item catalog-main__item--interior">
               <a class="catalog-main__link catalog-main__link--interior" href="#">
@@ -98,16 +99,16 @@
             </p>
             <table class="promo__specif specif-list">
               <tr class="specif-list__item">
-                <td class="specif-list__item--name">Цвет:</td>
-                <td class="specif-list__item--value">"Тиффани"/серый</td>
+                <td>Цвет:</td>
+                <td>"Тиффани"/серый</td>
               </tr>
               <tr class="specif-list__item">
-                <td class="specif-list__item--name">Диаметр:</td>
-                <td class="specif-list__item--value">25 см</td>
+                <td>Диаметр:</td>
+                <td>25 см</td>
               </tr>
               <tr class="specif-list__item">
-                <td class="specif-list__item--name">Высота:</td>
-                <td class="specif-list__item--value">15 см</td>
+                <td>Высота:</td>
+                <td>15 см</td>
               </tr>
             </table>
           </div>
@@ -198,11 +199,11 @@
         <div class="contacts__wrapper wrapper">
           <div class="contacts__block">
             <h2 class="contacts__title">Контакты</h2>
-            <div class="contacts__wrap contacts__wrap-mail">
+            <div class="contacts__wrap contacts__wrap--mail">
               <span class="contacts__label">e-mail:</span>
-              <a class="contacts__mail--link" href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+              <a class="contacts__mail" href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
             </div>
-            <div class="contacts__wrap contacts__wrap-address">
+            <div class="contacts__wrap contacts__wrap--address">
               <span class="contacts__label">адрес:</span>
               <p class="contacts__address">г. Санкт-Петербург,<br> ул. Большая Конюшенная,<br> д. 19/8, офис 101</p>
             </div>
@@ -231,7 +232,7 @@
     <footer class="page-footer feedback">
       <div class="page-footer__wrapper wrapper">
         <a class="page-footer__logo">
-          <svg id="logo-color" width="101" height="34">
+          <svg width="101" height="34">
             <use xlink:href="#logo-footer"></use>
           </svg>
         </a>
@@ -295,7 +296,7 @@
             <span class="modal-popup__size">L</span>
           </label>
         </div>
-        <button class="modal-popup__button button modal-close" type="submit">Добавить</button>
+        <button class="modal-popup__button button" type="submit">Добавить</button>
       </form>
     </section>
     <div class="overlay"></div>
