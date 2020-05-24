@@ -97,10 +97,10 @@
   border-bottom: 2px solid $seafoam-blue-2;
 }
 
-.order-form__sign-user:hover .order-form__icon--tel,
-.order-form__sign-user:hover .order-form__icon--mail,
-.order-form__sign-user:active .order-form__icon--tel,
-.order-form__sign-user:active .order-form__icon--mail {
+.order-form__sign-user:hover .order-form__icon-tel,
+.order-form__sign-user:hover .order-form__icon-mail,
+.order-form__sign-user:active .order-form__icon-tel,
+.order-form__sign-user:active .order-form__icon-mail {
   fill: $seafoam-blue-2;
   opacity: 1;
 }
@@ -207,6 +207,7 @@ input[type="tel"]::placeholder {
   height: 143px;
   margin-top: 6px;
   padding: 17px;
+
   border: 2px solid $greyish-brown;
   resize: none;
 }
