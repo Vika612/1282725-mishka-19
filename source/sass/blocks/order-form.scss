@@ -6,17 +6,13 @@
   border: none;
 }
 
-.order-form__field-user {
-  padding-bottom: 10px;
-}
-
-.order-form__wrapper--mail {
+.order-form__wrapper--tel {
   padding-top: 13px;
+  padding-bottom: 17px;
 }
 
 .order-form__wrapper--textarea {
-  padding-top: 10px;
-  padding-bottom: 8px;
+  padding-top: 17px;
 }
 
 .order-form__name {
@@ -71,8 +67,13 @@
 }
 
 .order-form__item-fullname {
+  margin-bottom: 0;
   padding: 0;
-  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+.order-form__item-fullname:last-child {
+  padding-bottom: 0;
 }
 
 .order-form__sign {
@@ -167,7 +168,8 @@
 
 .order-form__input-user {
   width: 100%;
-  padding: 15px 0;
+  height: 52px;
+  padding-top: 13px;
 
   font-family: "Open Sans", "Tahoma", sans-serif;
   font-size: 17px;
@@ -196,7 +198,9 @@ input[type="tel"]::placeholder {
 }
 
 .order-form__input-info {
+  height: 40px;
   padding-top: 0;
+  padding-bottom: 12px;
 }
 
 .order-form__icon {
@@ -213,7 +217,6 @@ input[type="tel"]::placeholder {
 
 .order-form__textarea {
   height: 143px;
-  margin-top: 6px;
   padding: 17px;
 
   border: 2px solid $greyish-brown;
@@ -236,7 +239,7 @@ input[type="tel"]::placeholder {
 
 .order-form__button {
   width: 260px;
-  margin-top: 25px;
+  margin-top: 30px;
   padding: 15px 0;
 }
 
@@ -252,11 +255,12 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__field--fullname {
-    margin-bottom: 15px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
   }
 
   .order-form__field-user {
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 0;
   }
 
@@ -272,16 +276,17 @@ input[type="tel"]::placeholder {
 
   .order-form__wrapper--tel {
     padding-top: 25px;
+    padding-bottom: 5px;
   }
 
   .order-form__wrapper--mail {
     padding-top: 0;
-    padding-bottom: 15px;
+    padding-bottom: 22px;
   }
 
   .order-form__wrapper--textarea {
     margin-bottom: 20px;
-    padding-top: 15px;
+    padding-top: 10px;
   }
 
   .order-form__name::after {
@@ -321,6 +326,7 @@ input[type="tel"]::placeholder {
   .order-form__set--fullname {
     width: 100%;
     margin-top: 0;
+    padding-top: 10px;
   }
 
   .order-form__item--color {
@@ -338,7 +344,6 @@ input[type="tel"]::placeholder {
   .order-form__item-fullname {
     margin: 0;
     padding: 0;
-    padding-bottom: 15px;
   }
 
   .order-form__sign {
@@ -355,10 +360,10 @@ input[type="tel"]::placeholder {
   .order-form__sign-user {
     width: 100%;
     padding: 0;
-    padding-bottom: 25px;
+    padding-bottom: 23px;
 
     display: flex;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .order-form__input:checked + .order-form__box--check {
@@ -375,16 +380,14 @@ input[type="tel"]::placeholder {
 
   .order-form__input-user {
     margin-left: 25px;
-    padding-top: 0;
-    padding-left: 17px;
+    padding: 17px;
 
     font-size: 19px;
   }
 
   .order-form__input-info {
+    height: 52px;
     margin-left: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
 
   .order-form__input-user::placeholder {
@@ -392,6 +395,7 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__textarea {
+    margin: 0;
     padding-top: 10px;
   }
 
@@ -440,7 +444,11 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__field--fullname {
-    padding-bottom: 0;
+    padding-bottom: 30px;
+  }
+
+  .order-form__wrapper--tel {
+    padding-bottom: 5px;
   }
 
   .order-form__wrapper--tel,
@@ -449,12 +457,13 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__wrapper--textarea {
-    margin-bottom: 9px;
+    margin-bottom: 16px;
+    padding-top: 15px;
     padding-right: 225px;
   }
 
   .order-form__field-user {
-    padding-top: 20px;
+    padding-top: 25px;
   }
 
   .order-form__name {
@@ -472,6 +481,7 @@ input[type="tel"]::placeholder {
   }
 
   .order-form__set--fullname {
+    padding-top: 5px;
     padding-right: 175px;
   }
 
@@ -481,7 +491,8 @@ input[type="tel"]::placeholder {
 
   .order-form__icon-tel,
   .order-form__icon-mail {
-    right: 7px;
+    top: 13px;
+    right: 13px;
   }
 
   .order-form__wrap {
